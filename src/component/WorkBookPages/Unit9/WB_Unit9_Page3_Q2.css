@@ -1,0 +1,8 @@
+.images-row-wb-unit9-p3-q2{
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}

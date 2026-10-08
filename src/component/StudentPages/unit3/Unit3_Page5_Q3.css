@@ -1,0 +1,84 @@
+/* غلاف العنصر بالكامل */
+.unit3-q3-wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+/* شبكة 2×2 مثل الصورة */
+.unit3-q3-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 50px;
+  margin: 30px 0px;
+  width: 100%;
+    justify-items: center;
+}
+
+/* كل سؤال */
+.unit3-q3-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* مجموعة الصور */
+.unit3-q3-images {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+/* الصور */
+.unit3-q3-image {
+ width: auto;
+    height: 150px;
+  object-fit: contain;
+}
+
+/* مربع الإدخال */
+.unit3-q3-input-wrapper {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff3030;
+  border-radius: 6px;
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-input {
+  color: red !important;
+  font-weight: bold;
+}
+/* input */
+.unit3-q3-input {
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* علامة الخطأ */
+.unit3-q3-wrong {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 22px;
+  height: 22px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  font-weight: bold;
+}

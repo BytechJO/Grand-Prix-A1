@@ -1,0 +1,20 @@
+.unscramble-row-wb-unit8-p6-q1 {
+  display: grid;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+  /* margin-top: 20px; */
+  grid-template-columns: repeat(2, 1fr);
+}
+.img-box img {
+    width: auto;
+    height: 130px;
+    /* object-fit: fill; */
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .unscramble-row-wb-unit8-p6-q1 {
+    gap: 17px;
+    margin-top: 0px;
+  }
+}

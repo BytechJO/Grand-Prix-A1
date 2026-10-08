@@ -1,0 +1,18 @@
+.review9-p2-q2-container {
+    display: grid;
+    gap: 20px;
+    /* margin-bottom: 60px; */
+    /* margin-top: 20px; */
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.review9-p2-q2-question-box {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+.row-content10-wb-unit5-p6-q2 {
+  display: grid;
+  /* margin-bottom: 55px; */
+  gap: 22px;
+  /* margin-top: 20px; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.q-img-wb-unit5-p6-q2 {
+    width: auto;
+    height: 140px;
+}
+
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .q-img-wb-unit5-p6-q2 {
+    width: auto;
+    height: 110px;
+}
+}

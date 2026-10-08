@@ -1,0 +1,181 @@
+.title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.u2-container {
+  display: flex;
+  width:100%
+;  justify-content: flex-start;
+}
+.layout {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 50px; */
+  padding-bottom: 40px;
+  border: 2px solid #3baaf7;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+.left-side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px 45px; /* مسافات متوازنة */
+}
+
+.image-row {
+  display: flex;
+  align-items: center;
+}
+
+.person-img {
+  width: 120px;
+  height: auto;
+}
+.drop-circle {
+  width: 50px;
+  height: 50px;
+  min-width: 50px; /* مهم */
+  min-height: 50px; /* مهم */
+  border: 2px solid #3baaf7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0; /* مهم */
+  transition: 0.25s;
+}
+
+.circle-number {
+  width: 45px;
+  height: 45px;
+  min-width: 45px; /* مهم */
+  min-height: 45px; /* مهم */
+  background: #3baaf7;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: grab;
+  flex-shrink: 0; /* مهم */
+}
+
+.drop-hover {
+  background: #d8efff;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 140px; /* غيري الرقم حسب اللي بناسبك */
+  min-height: 120px; /* اختياري */
+
+  padding: 10px;
+}
+
+.option-box {
+  background: #e6f6ff;
+  border: 2px solid #3baaf7;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: grab;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number-tag {
+  background: #3baaf7;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.number-tag,
+.draggable-number {
+  touch-action: none; /* ← أضف هاد */
+}
+
+.wrong-x3 {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  border: 2px solid white;
+  transition: transform 0.2s ease;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .person-img {
+    width: 95px;
+    height: auto;
+  }
+}
+/* ✅ Responsive Fixes */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+    /* gap: 30px; */
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  .person-img {
+    width: 60px;
+    height: auto;
+  }
+  .left-side {
+    display: flex;
+    gap: 10px;
+  }
+
+  .image-row {
+    justify-content: center;
+  }
+
+  .right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 0px;
+  }
+
+  .option-box {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ✅ أصغر شاشات */
+@media (max-width: 500px) {
+  .person-img {
+    width: 90px;
+  }
+
+  .drop-circle {
+    width: 48px;
+    height: 48px;
+  }
+
+  .circle-number {
+    width: 40px;
+    height: 40px;
+  }
+}

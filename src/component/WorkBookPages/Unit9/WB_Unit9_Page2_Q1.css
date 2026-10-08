@@ -1,0 +1,27 @@
+.sentence-area-wb-unit9-p2-q1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 38%;
+}
+
+.sentence-area-wb-unit9-p2-q1 .number-wb-unit6-p5-q1 {
+    font-weight: bold;
+    color: #2c5287;
+    font-size: 20px;
+}
+
+.sentence-area-wb-unit9-p2-q1 span {
+    font-size: 20px;
+    font-weight: 500;
+    /* width: 33%; */
+}
+
+.draw-box-wb-unit9-p2-q1 {
+    width: 300px;
+    height: 120px;
+    border: 2px solid #888;
+    border-radius: 8px;
+    background: #fff;
+    cursor: crosshair;
+}

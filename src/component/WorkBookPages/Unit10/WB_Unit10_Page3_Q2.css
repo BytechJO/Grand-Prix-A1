@@ -1,0 +1,16 @@
+.wb-unit10-p3-q2-canvas {
+  border: 3px solid #6ec1ff;
+  background: #ffffff;
+  border-radius: 12px;
+  height: 190px;
+  width: 270px;
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit10-p3-q2-canvas {
+    height: 160px;
+    width: 220px;
+  }
+}

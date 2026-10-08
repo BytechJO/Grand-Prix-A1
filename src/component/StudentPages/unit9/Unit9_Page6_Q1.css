@@ -1,0 +1,28 @@
+.q-input-unit9-page6-q1 {
+    border-bottom: 2px solid #000000;
+    padding: 5px 8px;
+    /* border-radius: 6px; */
+    font-size: 18px;
+    width:60%;
+    /* text-align: center;
+    vertical-align: middle;
+    line-height: normal; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .row-content10-unit9-page6-q1 {
+    display: grid;
+    /* margin-bottom: 55px; */
+    column-gap: 15px;
+    row-gap: 30px;
+    /* margin-top: 20px; */
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+.input-wrapper-unit9-page6-q1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+}

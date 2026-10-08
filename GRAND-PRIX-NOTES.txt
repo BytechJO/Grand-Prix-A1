@@ -1,0 +1,22 @@
+Grand Prix A1 — local adaptation of Right
+
+Run: npm run dev -- --host 127.0.0.1
+Build: npm run build
+Checks: npm run test:unit1 and npm run lint:unit1
+
+The original Right repository has no remote configured in this copy.
+Publisher navigation, logo and SVG controls are reused from Right.
+Opening the app shows the original Grand Prix cover. Printed page numbers remain unchanged.
+Activity popups contain editable exercises and selected illustrations/dialogues only.
+
+Audio captions:
+wordTimings.json contains local Whisper small word timestamps for all 13 recordings,
+including spoken introductions. French names and recognition errors were reviewed
+against the book text. Alignment remains machine-derived; short words may need
+fine adjustment after a detailed listening review. Words highlight from media
+currentTime, including pauses, seeking and playback-rate changes; silence gaps
+have no highlight. No microphone or transcription server is used by the app.
+
+Regenerate visual assets: scripts/prepare-exercises.py (pypdf and pdftoppm).
+Regenerate audio alignment: scripts/align-audio.py then scripts/review-word-timings.py.
+The offline speech runtime/model are outside the app in ../tools, not shipped.

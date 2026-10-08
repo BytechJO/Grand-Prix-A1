@@ -1,0 +1,63 @@
+.content-container-wb-unit4-p6-q2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.input-cell-wb-unit4-p6-q2 {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px;
+  height: 45px; /* ثبّت الارتفاع */
+  min-height: 45px;
+  max-height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden; /* 🔴 مهم */
+  box-sizing: border-box;
+  /* border: none; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.411);
+  outline: none;
+  text-align: center;
+}
+
+.sorting-table-wb-unit4-p6-q2 {
+  width: 90%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+.sorting-table-wb-unit4-p6-q2 tbody {
+  border: 2px solid black;
+  height: 200px;
+}
+.sorting-table-wb-unit4-p6-q2 td {
+  border-right: 2px solid black;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+.sorting-table-wb-unit4-p6-q2 th {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  background: #f3f3f3;
+}
+.img-bank-wb-unit4-p6-q2 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 15px 0;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.table-div-wb-unit4-p6-q2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,167 @@
+.unit3-q4-letter-of-Q {
+  border: 5px #5acbf4 solid;
+  background-color: #5acbf4;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+.row1-unit3-q4 {
+  background: #f7d3e4;
+  display: grid;
+  grid-template-columns: repeat(13, auto);
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  
+  gap: 9px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.unit3-q4-alphabet-box {
+  padding: 14px 20px;
+  border-radius: 12px;
+  margin: 30px 0px;
+  border: 5px solid #5acbf4;
+}
+
+.unit3-q4-row {
+  background: #f7d3e4; /* نفس الوردي اللي بالصورة */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.unit3-q4-cell {
+  text-align: center;
+  min-width: 18px;
+  font-size: 20px;
+  color: #333;
+}
+
+.unit3-q4-number {
+  color: #444;
+}
+
+.unit3-q4-input-h6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.unit3-q4-words {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.unit3-q4-numbers-section1 {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.unit3-q4-numbers-section2 {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.unit3-q4-numbers-section3 {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.unit3-q4-inputs {
+  width: 35px;
+  height: 35px;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #000000;
+}
+.unit3-q4-word-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.unit3-q4-sentence {
+  margin-top: 15px;
+  font-size: 22px;
+  display: flex;
+  gap: 21px;
+}
+
+.unit3-q4-sentence-word {
+  width: 35px;
+  height: 35px;
+  font-size: 24px;
+  padding: 4px 8px;
+}
+.unit3-q4-sentence {
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  font-size: 25px;
+}
+
+/* .action-buttons-container {
+  position: static;
+  transform: none;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.action-buttons-container {
+  bottom: 15px;
+  gap: 15px;
+  width: calc(100% - 30px);
+}
+.action-buttons-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: calc(100% - 40px);
+  justify-content: center;
+} */
+
+/* ⭐ تم إضافته */
+.unit3-q4-input-wrapper {
+  position: relative; /* مهم جدا حتى يصير المرجع */
+  display: inline-block;
+}
+.word-group-unit3-p5-q4 {
+  display: flex;
+  /* gap: 12px; */
+  margin-bottom: 12px;
+}
+
+.main-img-unit3-p5-q4 {
+  width: auto;
+  height: 190px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .main-img-unit3-p5-q4 {
+    width: auto;
+    height: 90px !important;
+  }
+  .unit3-q4-words {
+    flex-wrap: nowrap;
+  }
+}

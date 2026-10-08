@@ -1,0 +1,36 @@
+.wh-container-review7-p2-q3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+
+.gk-option.selected{
+  border-color: #4b74ff;
+  border-radius: 50%;
+}
+.wrong-x {
+  color: white;
+  background: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 14px;
+  position: absolute;
+  top: -10px;
+    right: -11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid white;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wh-container-review7-p2-q3 {
+    gap: 5px;
+
+    margin-top: 0px;
+  }
+}

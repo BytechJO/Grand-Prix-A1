@@ -1,0 +1,48 @@
+.question-box-unit7-p5-q1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.container-unit7-p5-q1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.option-word-unit7-p5-q1 {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 15px; /* نفس حجم selected */
+  border-radius: 25px;
+  border: 2px solid #72d0f6; /* مهم جداً */
+  margin-top: 10px;
+  transition: 0.2s;
+  position: relative;
+  user-select: none;
+}
+
+.option-word-unit7-p5-q1.selected3 {
+  background-color: #72d1f679; /* فقط نغيّر اللون */
+}
+.q3-image-unit7-p5-q1 {
+  height: 120px;
+  width: auto;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .q3-image-unit7-p5-q1 {
+    height: 110px;
+    width: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .container-unit7-p5-q1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

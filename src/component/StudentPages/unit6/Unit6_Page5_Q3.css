@@ -1,0 +1,221 @@
+/* ─── Layout ──────────────────────────────────────────────── */
+.q3-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.q3-inner {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 20px;
+}
+
+/* ─── Word bank ───────────────────────────────────────────── */
+.word-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  justify-content: center;
+  background: #fafafa;
+}
+
+/* ─── Word chip ───────────────────────────────────────────── */
+.word-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border: 2px solid #2c5287;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: grab;
+  user-select: none;
+  transition:
+    box-shadow 0.15s,
+    opacity 0.15s,
+    transform 0.15s;
+}
+
+.word-chip:hover:not(.chip-disabled) {
+  box-shadow: 0 4px 12px rgba(44, 82, 135, 0.2);
+  transform: translateY(-1px);
+}
+
+.word-chip.is-dragging {
+  opacity: 0.45;
+}
+
+.word-chip.chip-disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.overlay-chip {
+  opacity: 1 !important;
+  box-shadow: 0 8px 24px rgba(44, 82, 135, 0.3);
+  transform: rotate(2deg) scale(1.05);
+  cursor: grabbing;
+}
+
+.chip-number {
+  color: #2c5287;
+  margin-right: 2px;
+}
+
+/* ─── Slots grid ──────────────────────────────────────────── */
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+
+.slot-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.slot-img {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ─── Drop slot ───────────────────────────────────────────── */
+.drop-slot-unit6-pg5-q3 {
+  position: relative;
+  min-width: 140px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #aac0e0;
+  /* border-radius: 8px; */
+  background: #f0f5ff;
+  padding: 6px 10px;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    box-shadow 0.15s;
+  font-size: 13px;
+  text-align: center;
+}
+
+.drop-slot-unit6-pg5-q3.slot-over {
+      border-style: dashed;
+  background: #ddeaff;
+  border-color: #2c5287;
+  box-shadow: 0 0 0 3px rgba(44, 82, 135, 0.15);
+}
+
+.drop-slot-unit6-pg5-q3.slot-filled {
+  border-style: solid;
+  border-color: #2c5287;
+  background: #fff;
+}
+
+.drop-slot-unit6-pg5-q3.slot-wrong {
+  border-color: #e53e3e;
+  background: #fff5f5;
+}
+
+.drop-slot-unit6-pg5-q3.slot-locked {
+  cursor: default;
+}
+
+.slot-value {
+  font-weight: 600;
+  /* color: #1a3a6b; */
+  font-size: 17px;
+}
+
+.slot-placeholder {
+  color: #aaa;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.word-chip.chip-used {
+  opacity: 0.35;
+  cursor: default;
+  border-color: #aaa;
+  color: #999;
+  pointer-events: none;
+}
+
+/* slot with value — show ✕ hint on hover */
+.drop-slot.slot-returnable {
+  cursor: pointer;
+}
+
+.return-hint {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #888;
+  color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.drop-slot.slot-returnable:hover .return-hint {
+  display: flex;
+}
+
+.drop-slot.slot-returnable:hover {
+  border-color: #3e76e5;
+  background: #f5f9ff;
+}
+
+.error-mark {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ─── Responsive ──────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .q3-inner {
+    width: 100%;
+  }
+
+  .slots-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .slots-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,39 @@
+.wb-unit9-p6-q3-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wb-unit9-p6-q3-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.wb-unit9-p6-q3-options-box {
+  display: flex;
+   gap: 12px;
+}
+
+.wb-unit9-p6-q3-question-box {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 12px;
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit9-p6-q3-container {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wb-unit9-p6-q3-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

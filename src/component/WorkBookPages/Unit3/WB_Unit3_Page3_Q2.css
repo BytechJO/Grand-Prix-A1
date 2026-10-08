@@ -1,0 +1,36 @@
+.h5-wb-unit3-p3-q2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    /* height: 50px; */
+    /* width: 70px; */
+    border: 2px solid #000000;
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    /* width: fit-content; */
+    margin-bottom: 25px;
+}
+
+.h5-wb-unit3-p3-q2 {
+  /* display: inline-block; مهم للـ transform */
+  transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+}
+/* ✨ Hover animation */
+.h5-wb-unit3-p3-q2:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.h5-wb-unit3-p3-q2:active {
+  transform: scale(0.98);
+}

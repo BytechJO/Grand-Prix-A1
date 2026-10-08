@@ -1,0 +1,29 @@
+.word-bank-unit9-p5-q2 {
+    display: flex;
+    gap: 5px;
+    /* margin: 15px 0 25px; */
+    flex-wrap: wrap;
+    border: 2px solid #4b74ff;
+    background-color: #f2f6ff;
+    border-radius: 8px;
+    padding: 10px;
+    /* height: 60px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.q-input-unit9-p5-q2 {
+    border-bottom: 2px solid #878787;
+    padding: 5px 8px;
+    /* border-radius: 8px; */
+    width: 120px;
+    height: 30px;
+    /* border-radius: 6px; */
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    height: 40px;
+}

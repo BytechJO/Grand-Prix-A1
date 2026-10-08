@@ -1,0 +1,16 @@
+.missing-input-wb-unit7-p6-q3 {
+    width: 130px;
+    /* border: none; */
+    border-bottom: 2px solid black;
+    margin: 0 6px;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.input-wrapper-wb-unit7-p6-q3{
+    position: relative;
+    display: inline-block;
+    /* width: 100%; */
+}

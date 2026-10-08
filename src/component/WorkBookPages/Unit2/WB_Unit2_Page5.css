@@ -1,0 +1,105 @@
+.wb-unit2-p5-q1 {
+  position: absolute;
+  padding: 5px;
+  top: 3.5%;
+  left: 34%;
+}
+.wb-unit2-p5-q2 {
+  position: absolute;
+  padding: 5px;
+  top: 52.8%;
+  left: 31%;
+}
+
+.word-text2-wb-unit2-p5-q1 {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 700;
+  background: #ffffff;
+  border-radius: 9px;
+  font-size: 18px;
+  /* min-width: 100px; */
+  text-align: start;
+  border: 2px solid #000000;
+  width: 200px;
+  padding: 0px 10px;
+}
+
+.word-text2-wb-unit2-p5-q1 {
+  display: inline-block; /* مهم للـ transform */
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+}
+/* ✨ Hover animation */
+.word-text2-wb-unit2-p5-q1:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.word-text2-wb-unit2-p5-q1:active {
+  transform: scale(0.98);
+}
+.error-mark8-wb-unit2-p5-q1 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: absolute;
+  left: 28%;
+  top: 19%;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit2-p5-q1 {
+    position: absolute;
+    padding: 5px;
+    top: 2.5%;
+    left: 34%;
+  }
+  .wb-unit2-p5-q2 {
+    position: absolute;
+    padding: 5px;
+    top: 51.8%;
+    left: 31%;
+  }
+}
+/* @media (max-width: 1024px) {
+  .wb-unit2-p5-q1 {
+    top: 14.5%;
+    left: 41%;
+  }
+
+  .wb-unit2-p5-q2 {
+    top: 45.5%;
+    left: 35%;
+  }
+}
+
+@media (max-width: 820px) {
+.wb-unit2-p5-q1 {
+        top: 3%;
+        left: 34%;
+    }
+
+.wb-unit2-p5-q2 {
+        top: 52.5%;
+        left: 31%;
+    }
+} */

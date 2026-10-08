@@ -1,0 +1,19 @@
+.question-row-wb-unit8-p4-q2 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  flex-direction: column;
+      margin-top: 20px;
+}
+
+.img-container-wb-unit8-p4-q2 {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+
+.img-container-wb-unit8-p4-q2 p {
+    font-size: 20px;
+    font-weight: 600;
+}

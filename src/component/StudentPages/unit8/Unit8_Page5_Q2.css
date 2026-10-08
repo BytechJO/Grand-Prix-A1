@@ -1,0 +1,30 @@
+.match-wrapper2-unit8-p5-q2 {
+  position: relative;
+  /* margin: 20px 0px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.selected-item {
+  transform: scale(1.1);
+  transition: all 0.25s ease;
+  /* filter: drop-shadow(0 0 8px #4fc3f7); */
+}
+
+.clickable-word-unit2-p7-q2,
+.matched-img2 {
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.clickable-word-unit2-p7-q2:hover,
+.matched-img2:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .match-wrapper2-unit8-p5-q2 {
+    gap: 100px;
+  }
+}

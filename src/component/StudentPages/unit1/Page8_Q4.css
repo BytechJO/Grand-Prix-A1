@@ -1,0 +1,282 @@
+.letter-of-Q {
+  border: 5px #5acbf4 solid;
+  background-color: #5acbf4;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.alphabet-box {
+  padding: 14px 20px;
+  border-radius: 12px;
+  margin: 10px 0px;
+  border: 2px solid #5acbf4;
+}
+
+/* =========================
+   DROP SLOTS
+========================= */
+
+/* .drop-slot {
+  width: 55px;
+  height: 55px;
+  border: 2px dashed #4aa3df;
+  border-radius: 10px;
+  background-color: #f4faff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  transition: all 0.25s ease;
+  position: relative;
+} */
+
+/* الرقم داخل المربع */
+.drop-slot h6 {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+/* لما يقرّب حرف */
+.drop-slot:hover {
+  background-color: #eaf6ff;
+}
+
+/* أثناء السحب فوقه */
+.drop-slot.drag-over {
+  border-color: #1e90ff;
+  background-color: #d9efff;
+  transform: scale(1.05);
+}
+
+/* الحرف داخل المربع */
+.dropped-letter {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+.drag-letter {
+  background: transparent;
+  border: 2px solid #4aa3df;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: grab;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.drag-letter:active {
+  cursor: grabbing;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+/* يغلف الرقم + المربع */
+.slot-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6px;
+}
+
+/* الرقم فوق المربع */
+.slot-number {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+/* مربع الدروب */
+.drop-slot {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border: 2px dashed #4aa3df;
+  border-radius: 10px;
+  background-color: #f4faff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.sentence-box {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+}
+
+.sentence-text {
+  color: #333;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.row1 {
+  background: #f7d3e4; /* نفس الوردي اللي بالصورة */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cell1 {
+  font-size: 20px;
+  text-align: center;
+  min-width: 18px;
+  color: #333;
+}
+
+.number1 {
+  color: #444;
+}
+
+.words {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.numbers-section1 {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.numbers-section2 {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.numbers-section3 {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.inputs {
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px solid #000000;
+}
+.word-group {
+  display: flex;
+  /* gap: 12px; */
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+.sentence {
+  margin-top: 15px;
+  font-size: 25px;
+  display: flex;
+  gap: 21px;
+}
+
+.sentence-word {
+  width: 7%;
+  height: 35px;
+  font-size: 25px;
+  padding: 4px 8px;
+}
+.sentence {
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  margin-top: 35px;
+  font-size: 25px;
+}
+
+/* .action-buttons-container {
+  position: static;
+  transform: none;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.action-buttons-container {
+  bottom: 15px;
+  gap: 15px;
+  width: calc(100% - 30px);
+}
+.action-buttons-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: calc(100% - 40px);
+  justify-content: center;
+} */
+
+.letter-char1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ⭐ تم إضافته */
+.input-wrapper {
+  position: relative; /* مهم جدا حتى يصير المرجع */
+  display: inline-block;
+}
+
+.error-mark1 {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none; /* عشان ما تأثر على السحب أو الكتابة */
+}
+
+.input-h6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 540px) {
+  .row1 {
+    margin: 0px;
+  }
+}

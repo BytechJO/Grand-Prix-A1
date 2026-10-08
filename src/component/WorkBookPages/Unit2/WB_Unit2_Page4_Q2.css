@@ -1,0 +1,73 @@
+.word-text2-wb-unit2-p4-q2 {
+    flex: 1;
+    font-size: 18px;
+    font-weight: 700;
+    background: #ffffff;
+    border-radius: 9px;
+    font-size: 18px;
+    /* min-width: 100px; */
+    text-align: center;
+    border: 2px solid #000000;
+    width: 200px;
+      
+}
+
+.matching-row2-wb-unit2-p4-q2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.word-text2-wb-unit2-p4-q2 {
+  display: inline-block; /* مهم للـ transform */
+  transition: 
+    transform 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+}
+/* ✨ Hover animation */
+.word-text2-wb-unit2-p4-q2:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.word-text2-wb-unit2-p4-q2:active {
+  transform: scale(0.98);
+}
+
+.disabled-word ,.disabled-hover {
+  pointer-events: none;
+  /* opacity: 0.6; */
+}
+
+/* منع أي hover effect */
+.disabled-word:hover {
+  transform: none;
+  box-shadow: none;
+  background-color: transparent;
+  cursor: default !important;
+}
+.error-mark8-wb-unit2-p4-q2 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    vertical-align: middle;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    z-index: 99;
+}

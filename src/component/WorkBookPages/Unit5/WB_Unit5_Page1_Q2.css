@@ -1,0 +1,22 @@
+.sentence-wb-unit5-p1-q2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  font-size: 22px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.question-img-wb-unit5-p1-q2 {
+  width: 140px;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .question-img-wb-unit5-p1-q2 {
+    width: 110px;
+  }
+}

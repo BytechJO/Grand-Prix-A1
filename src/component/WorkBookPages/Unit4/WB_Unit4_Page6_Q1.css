@@ -1,0 +1,29 @@
+.fv-container-wb-unit4-p6-q1 {
+  display: grid;
+  /* gap: 20px; */
+  justify-content: space-around;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin-top: 20px; */
+}
+.fv-item-wb-unit4-p6-q1 {
+    text-align: center;
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fv-image-wb-unit4-p6-q1 {
+    width: 170px;
+    height: auto;
+    object-fit: contain;
+}
+.fv-options-wb-unit4-p6-q1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    flex-direction: column;
+}

@@ -1,0 +1,142 @@
+.title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.layout2 {
+  display: flex;
+  justify-content: space-between;
+     align-items: center;
+  gap: 50px;
+  padding-bottom: 40px;
+  margin: 35px 0px;
+  flex-direction: column;
+}
+
+.left-side2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.image-row2 {
+  display: flex;
+  align-items:flex-start
+}
+/* في Unit2_Page6_Q2.css */
+.number-tag2,
+.draggable-number {
+  touch-action: none; /* ← أضف هاد */
+}
+.person-img2 {
+  width: 120px;
+  height: auto;
+}
+.drop-circle2 {
+  width: 50px;
+  height: 50px;
+  min-width: 50px; /* مهم */
+  min-height: 50px; /* مهم */
+  border: 2px solid #3baaf7;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0; /* مهم */
+  transition: 0.25s;
+}
+
+.circle-number2 {
+  width: 45px;
+  height: 45px;
+  min-width: 45px; /* مهم */
+  min-height: 45px; /* مهم */
+  background: #3baaf7;
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: grab;
+  flex-shrink: 0; /* مهم */
+}
+
+
+.drop2-hover {
+  background: #d8efff;
+}
+
+.right-side2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 140px; /* غيري الرقم حسب اللي بناسبك */
+  min-height: 120px; /* اختياري */
+/* align-self: baseline; */
+  padding: 10px;
+}
+
+.option-box2 {
+  background: #e6f6ff;
+  border: 2px solid #3baaf7;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: grab;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number-tag2 {
+  background: #3baaf7;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* ✅ Responsive Fixes */
+@media (max-width: 900px) {
+  .layout2 {
+    flex-direction: column;
+    /* gap: 30px; */
+    align-items: center;
+  }
+
+  .left-side2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+  }
+
+  .image-row2 {
+    justify-content: center;
+  }
+
+  .right-side2 {
+    width: 100%;
+            align-items: flex-start;
+  }
+
+  .option-box2 {
+    text-align: center;
+  }
+}
+
+/* ✅ أصغر شاشات */
+@media (max-width: 500px) {
+  .person-img2 {
+    width: 90px;
+  }
+
+  .drop-circle2 {
+    width: 48px;
+    height: 48px;
+  }
+
+  .circle-number2 {
+    width: 40px;
+    height: 40px;
+  }
+}

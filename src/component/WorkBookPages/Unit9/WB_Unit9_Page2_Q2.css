@@ -1,0 +1,39 @@
+.container12-wb-unit9-p2-q1 {
+    margin: auto;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    user-select: none;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+
+.unscramble-input-wb-unit9-p2-q1 {
+    width: 90%;
+    /* padding: 6px 10px; */
+    border-bottom: 2px solid #000000;
+    /* border-radius: 6px; */
+    /* margin-top: 8px; */
+    font-size: 20px;
+    height: 30px;
+}
+
+.input-error-x-wb-unit9-p2-q1 {
+    position: absolute;
+    right: 99%;
+    top: 70%;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}

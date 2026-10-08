@@ -1,0 +1,72 @@
+.section-one11-review10-p1-q3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.word-item-review10-p1-q3{
+    padding: 0px 9px;
+    background-color: #f2f6ff;
+    border: 2px solid #4b74ff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f3cff;
+    cursor: grab;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.answer-input-review10-p1-q3 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-container-review10-p1-q3 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.input-container-review10-p1-q3 {
+width: 90%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-top: 90px; */
+}
+.answer-input33-review10-p1-q3 {
+  border-bottom: 2px solid;
+  text-align: start;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.answer-input3-review10-p1-q3 {
+  border-bottom: 2px solid;
+  text-align: start;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.content-input-review10-p1-q3 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+    width: 47%;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+}

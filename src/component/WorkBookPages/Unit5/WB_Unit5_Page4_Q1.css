@@ -1,0 +1,30 @@
+.wb-unit5-p4-q1-table {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.wb-unit5-p4-q1-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wb-unit5-p4-q1-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    width: 100%;
+}
+
+.wb-unit5-p4-q1-canvas {
+    border: 3px solid #6ec1ff;
+    background: #ffffff;
+    border-radius: 12px;
+    height: 145px !important;
+    width: 260px !important;
+    box-sizing: border-box;
+    cursor: crosshair;
+}

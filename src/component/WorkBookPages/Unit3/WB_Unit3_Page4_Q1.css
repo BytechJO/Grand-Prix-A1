@@ -1,0 +1,125 @@
+.wb-unit3-p4-q1-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.wb-unit3-p4-q1-card {
+  width: 70%;
+}
+
+.wb-unit3-p4-q1-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f3a63;
+}
+
+.wb-unit3-p4-q1-badge {
+  background: #4ea3ff;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.wb-unit3-p4-q1-rows {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.wb-unit3-p4-q1-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  border-bottom: 2px solid #e7e7e7;
+  padding-bottom: 16px;
+}
+
+.wb-unit3-p4-q1-left {
+  flex: 1;
+}
+
+.wb-unit3-p4-q1-line {
+  cursor: pointer;
+  user-select: none;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.wb-unit3-p4-q1-number {
+  color: #2c5287;
+  font-weight: 800;
+}
+
+.wb-unit3-p4-q1-char {
+  display: inline-block;
+  padding: 2px 2px;
+  margin: 0 1px;
+  position: relative;
+}
+
+.wb-unit3-p4-q1-char.is-circled {
+  border: 2px solid #d12c2c;
+  border-radius: 999px;
+  padding: 1px 4px;
+}
+
+.wb-unit3-p4-q1-write {
+  margin-top: 10px;
+  position: relative;
+}
+
+.wb-unit3-p4-q1-input {
+  width: 280px;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  font-size: 18px;
+  padding: 6px 4px;
+}
+
+.wb-unit3-p4-q1-rightBtn {
+  min-width: 170px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 2px solid #1c1c1c;
+  background: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.wrong-mark-wb-unit3-p4-q1 {
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  background: red;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ffffff !important;
+  justify-content: center;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit3-p4-q1-row {
+    gap: 0px;
+    padding-bottom: 0px;
+  }
+  .wb-unit3-p4-q1-line {
+    font-size: 16px;
+  }
+}

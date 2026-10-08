@@ -1,0 +1,24 @@
+.poster-grammar-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.audio-btn-poster {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+
+.audio-btn-poster svg {
+  width: 100%;
+  height: 100%;
+}
+
+.audio-btn-poster:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,139 @@
+/* شكل البوكس العام */
+.swal2-container {
+  z-index: 999999999 !important; /* أعلى من أي Popup عندك */
+}
+
+.swal2-popup {
+  z-index: 999999999 !important;
+}
+.my-popup {
+  border-radius: clamp(15px, 2vw, 25px) !important;
+  padding: clamp(15px, 2vw, 30px) !important;
+  background: linear-gradient(145deg, #e6eef8, #ffffff) !important;
+  box-shadow: 0 clamp(3px, 0.5vw, 6px) clamp(10px, 2vw, 20px) rgba(0, 0, 0, 0.15) !important;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* صورة الـ GIF */
+.my-image {
+  border-radius: 50% !important;
+  margin-top: clamp(5px, 1vw, 10px) !important;
+  background-color: #fff !important;
+  padding: clamp(5px, 1vw, 10px) !important;
+}
+
+/* العنوان */
+.my-title {
+  color: #2b3e5f !important;
+  font-size: clamp(16px, 2vw, 24px) !important;
+  font-weight: bold !important;
+  margin-top: clamp(8px, 1.5vw, 15px) !important;
+  text-transform: capitalize;
+}
+
+/* المحتوى النصي */
+.my-content {
+  color: #444 !important;
+  font-size: clamp(14px, 1.5vw, 18px) !important;
+  font-family: 'Poppins', sans-serif;
+  margin-top: clamp(5px, 1vw, 10px) !important;
+}
+
+/* زر التأكيد */
+.my-button {
+  background: green !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: clamp(14px, 1.8vw, 18px) !important;
+  border-radius: 50% !important;
+  width: clamp(60px, 8vw, 100px) !important;
+  height: clamp(60px, 8vw, 100px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  /* margin-top: clamp(120px, 15vw, 210px) !important; */
+  transition: all 0.3s ease !important;
+}
+
+.my-button:hover {
+  background: rgb(6, 192, 6)  !important;
+  transform: scale(1.1);
+  box-shadow: 0 clamp(5px, 1vw, 10px) clamp(8px, 1.5vw, 15px) rgba(0, 0, 0, 0.4);
+}
+
+.my-button2{
+  background: rgb(255, 153, 0)!important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: clamp(14px, 1.8vw, 18px) !important;
+  border-radius: 50% !important;
+  width: clamp(60px, 8vw, 100px) !important;
+  height: clamp(60px, 8vw, 100px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  /* margin-top: clamp(120px, 15vw, 210px) !important; */
+  transition: all 0.3s ease !important;
+}
+
+.my-button2:hover{
+   background: rgb(255, 186, 58) !important;
+  transform: scale(1.1);
+  box-shadow: 0 clamp(5px, 1vw, 10px) clamp(8px, 1.5vw, 15px) rgba(0, 0, 0, 0.4);
+}
+
+.my-button3{
+  background: rgb(0, 170, 255)!important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: clamp(14px, 1.8vw, 18px) !important;
+  border-radius: 50% !important;
+  width: clamp(60px, 8vw, 100px) !important;
+  height: clamp(60px, 8vw, 100px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  /* margin-top: clamp(120px, 15vw, 210px) !important; */
+  transition: all 0.3s ease !important;
+}
+
+.my-button3:hover{
+   background: rgb(87, 194, 248) !important;
+  transform: scale(1.1);
+  box-shadow: 0 clamp(5px, 1vw, 10px) clamp(8px, 1.5vw, 15px) rgba(0, 0, 0, 0.4);
+}
+
+/* تأثير دخول جميل */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* زر الغلط */
+.my-button1 {
+  background: #f44336;
+  color: white;
+  font-weight: bold;
+  font-size: clamp(14px, 1.8vw, 18px);
+  border-radius: 50%;
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: clamp(120px, 15vw, 210px); */
+  transition: transform 0.3s ease, background 0.3s ease;
+  transform-origin: center;
+}
+
+.my-button1:hover {
+  background: #d32f2f;
+  transform: scale(1.1);
+  box-shadow: 0 clamp(5px, 1vw, 10px) clamp(8px, 1.5vw, 15px) rgba(0, 0, 0, 0.4);
+}

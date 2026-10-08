@@ -1,0 +1,29 @@
+.big-answer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.big-answer-input {
+  width: 100%;
+  font-size: 22px;
+  padding: 10px 15px;
+  border-bottom: 2px rgb(0, 0, 0)d #aaa;
+  /* border-radius: 8px; */
+}
+
+.error-mark1-unit4-page5-q4{
+     position: absolute;
+    top: -8px;
+    right: -9px;
+    background: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

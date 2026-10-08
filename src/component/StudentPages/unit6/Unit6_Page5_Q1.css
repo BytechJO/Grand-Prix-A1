@@ -1,0 +1,153 @@
+.unit6-p1-q1-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-items: center;
+  margin-bottom: 60px;
+  /* margin-top: 20px; */
+  width: 100%;
+  justify-items: center;
+}
+
+/* المربعات (السؤال الواحد) */
+.unit6-p1-q1-question-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+/* الصورة */
+.unit6-p1-q1-question-img {
+  height: 120px;
+  width: auto;
+  object-fit: cover;
+}
+
+/* تخطيط السؤال والصورة */
+.unit6-p1-q1-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* خيارات ✓ و ✗ */
+.unit3-q5-options-box {
+  position: relative;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+
+.option-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  cursor: pointer;
+  background: white;
+  color: red;
+  transition: 0.2s;
+}
+
+.option-btn.selected {
+  border-color: purple;
+  background-color: #f3e6ff;
+  color: black;
+}
+
+.option-wrapper {
+  position: relative;
+}
+
+.unit6-p1-q1-wrong-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 28px;
+  height: 28px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid white;
+  z-index: 10;
+}
+
+.unit6-p1-q1-options-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+/* -------------- RESPONSIVE -------------- */
+
+/* الموبايل الصغير */
+@media (max-width: 950px) {
+  .unit6-p1-q1-container {
+    gap: 0px;
+  }
+}
+@media (max-width: 850px) {
+  .unit6-p1-q1-container {
+    grid-template-columns: 1fr 1fr; /* عمود واحد */
+    /* gap: 10px; */
+  }
+  .unit6-p1-q1-options-box {
+    flex-direction: row;
+  }
+  .unit6-p1-q1-question-box {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .unit6-p1-q1-flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .unit6-p1-q1-question-img {
+    width: 150px;
+    height: auto;
+  }
+
+  .option-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .unit3-q5-options-box {
+    flex-direction: row; /* الخيارات جنب بعض بالموبايل */
+    gap: 10px;
+  }
+
+  .unit6-p1-q1-wrong-icon {
+    right: -10px;
+    top: -5px;
+  }
+}
+
+/* الموبايل الأصغر جدًا */
+@media (max-width: 450px) {
+  .unit6-p1-q1-question-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .option-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+}

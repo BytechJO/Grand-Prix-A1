@@ -1,0 +1,69 @@
+.images-row-unit10-page6-q3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.sentence-wrapper-unit10-page6-q3 {
+  font-size: 20px;
+}
+
+.sentence-wrapper-unit10-page6-q3 input {
+  border-bottom: 2px solid black;
+  width: 80%;
+  margin-left: 15px;
+}
+
+.auto-answer-unit10-page6-q3 {
+    min-width: 120px;
+    width: 85%;
+    display: inline-block;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    font-size: 18px;
+}
+
+.image-box-unit10-page6-q3 {
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    height: 150px;
+    cursor: pointer;
+    display: flex;
+    transition: 0.2s;
+    width: 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-box-unit10-page6-q3.selected-unit10-page6-q3 {
+  border-color: #2c5287; /* أزرق مثل الكتاب */
+}
+
+.wrong-mark-unit10-p6-q3 {
+  position: absolute;
+  top: -10px;
+  right: 67px;
+  background: red;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ffffff !important;
+  justify-content: center;
+  z-index: 10;
+}
+
+
+@media (max-width: 1024px) {
+.images-row-unit10-page6-q3 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+}

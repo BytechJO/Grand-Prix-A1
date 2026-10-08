@@ -1,0 +1,98 @@
+.container-missing {
+  width: 60%;
+  margin: auto;
+}
+
+.header-title {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.input-wrapper-review4-p2-q1 {
+    position: relative;
+    display: inline-block;
+    /* width: 100%; */
+}
+.row-missing {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+.word-bank-review4-p2-q1{
+    display: flex;
+    gap: 5px;
+    margin: 15px 0 25px;
+    flex-wrap: wrap;
+    border: 2px solid #4b74ff;
+    background-color: #f2f6ff;
+    border-radius: 8px;
+    padding: 10px;
+    /* height: 60px; */
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.num {
+  width: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c5287;
+}
+
+.sentence {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.missing-input-review4-p2-q1 {
+  width: 35px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 0 6px;
+  font-size: 20px;
+  text-align: center;
+      height: 40px;
+  /* outline: none; */
+}
+
+.sentence-review4-p2-q1 {
+  text-align: center;
+  display: flex;
+  /* margin-top: 35px; */
+  font-size: 20px;
+}
+
+.img-missing {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.wrong-icon-review4-p2-q1 {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+.middle-img {
+  width: auto;
+  height: 80px;
+  margin: 0 8px;
+}

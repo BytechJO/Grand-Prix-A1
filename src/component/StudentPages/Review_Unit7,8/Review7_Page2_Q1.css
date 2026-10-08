@@ -1,0 +1,25 @@
+.question-grid-review7-p2-q1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 100%;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.word-bank-review7-p2-q1 {
+    display: flex;
+    gap: 5px;
+    margin: 15px 0 25px;
+    flex-wrap: wrap;
+    border: 2px solid #4b74ff;
+    background-color: #f2f6ff;
+    border-radius: 8px;
+    padding: 10px;
+    /* height: 60px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}

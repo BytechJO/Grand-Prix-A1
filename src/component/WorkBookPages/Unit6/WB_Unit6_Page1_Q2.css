@@ -1,0 +1,83 @@
+/* ===== TABLE WRAPPER ===== */
+.grammar-table-wb-u6-p1-q2 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #000;
+  table-layout: fixed;
+}
+
+/* ===== HEADER ===== */
+.grammar-table-wb-u6-p1-q2 th {
+  border: 1.5px solid #000;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* ===== CELLS ===== */
+.grammar-table-wb-u6-p1-q2 td {
+  border: 1.5px solid #000;
+  height: 85px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+
+/* ===== IMAGE CELL ===== */
+.img-cell {
+  width: 120px;
+  cursor: default;
+}
+
+.img-cell img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ===== ROW NUMBER ===== */
+.row-number {
+  position: absolute;
+  left: -26px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #1e40af; /* أزرق مثل الكتاب */
+}
+
+/* ===== SENTENCE CELL ===== */
+.sentence-cell {
+  width: 160px;
+  text-align: left;
+  padding-left: 12px;
+  font-size: 15px;
+  cursor: default;
+}
+
+/* ===== DISABLE TEXT SELECTION ===== */
+.grammar-table-wb-u6-p1-q2 td,
+.grammar-table-wb-u6-p1-q2 th {
+  user-select: none;
+}
+.grammar-table-wb-u6-p1-q2 th:nth-child(1),
+.grammar-table-wb-u6-p1-q2 td:nth-child(1) {
+  width: 120px;
+}
+
+.grammar-table-wb-u6-p1-q2 th:nth-child(6),
+.grammar-table-wb-u6-p1-q2 td:nth-child(6) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .grammar-table-wb-u6-p1-q2 th:nth-child(1),
+  .grammar-table-wb-u6-p1-q2 td:nth-child(1) {
+    width: 100px;
+  }
+  .grammar-table-wb-u6-p1-q2 td {
+    height: 65px;
+  }
+}

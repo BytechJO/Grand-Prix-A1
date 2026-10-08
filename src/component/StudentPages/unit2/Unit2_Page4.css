@@ -1,0 +1,52 @@
+.headset-icon-CD-unit2-page4-1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+
+  padding: 5px;
+  top: 6%;
+  left: 39%;
+}
+
+.pauseBtn-icon-CD-unit2-page4-1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+
+  padding: 5px;
+  top: 6%;
+  left: 44.2%;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+      .headset-icon-CD-unit2-page4-1 {
+        top: 5.8% !important;
+        left: 39% !important;
+    }
+        .pauseBtn-icon-CD-unit2-page4-1 {
+        top: 5.8% !important;
+        left: 44.2% !important;
+    }
+}
+@media (max-width: 1024px) {
+  .pauseBtn-icon-CD-unit2-page4-1 {
+    top: 4.8%;
+    left: 42.2%;
+  }
+  .headset-icon-CD-unit2-page4-1 {
+    top: 4.8%;
+    left: 37%;
+  }
+}
+@media (max-width: 820px) {
+    .pauseBtn-icon-CD-unit2-page4-1 {
+    top: 5.5%;
+    left: 42.2%;
+  }
+  .headset-icon-CD-unit2-page4-1 {
+     top: 5.5%;
+    left: 37%;
+  }
+} */

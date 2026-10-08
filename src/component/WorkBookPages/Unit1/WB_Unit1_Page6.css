@@ -1,0 +1,23 @@
+.wb-unit1-p6-q1 {
+  position: absolute;
+  padding: 5px;
+  top: 3.5%;
+  left: 45.5%;
+}
+
+.wb-unit1-p6-q2 {
+  position: absolute;
+  padding: 5px;
+  top: 61.5%;
+  left: 30.5%;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit1-p6-q1 {
+    top: 2.5%;
+  }
+
+  .wb-unit1-p6-q2 {
+    top: 60.5%;
+  }
+}

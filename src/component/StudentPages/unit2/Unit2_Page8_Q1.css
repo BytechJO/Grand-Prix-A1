@@ -1,0 +1,166 @@
+.container12-review1-p17-exd{
+  /* margin: auto; */
+  position: relative;
+  user-select: none;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.matching-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* الكلمة + النقطة */
+.word-with-dot2 {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.selected-item {
+  transition: all 0.25s ease;
+}
+
+.word-text2.selected-item {
+  background: white;
+  color: #72d0f6;
+  text-decoration: underline;
+  padding: 4px 8px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 12px rgba(114, 208, 246, 0.7); */
+}
+
+.matched-img2.selected-item {
+  outline: 4px solid #72d0f6;
+  outline-offset: 4px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(114, 208, 246, 0.7);
+}
+/* النص يأخذ مساحة عشان النقطة ما تتحرك */
+.word-text2 {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 700;
+  background: #b7eaff;
+  border-radius: 20px; /* هذا اللي بيسوي الشكل البيضاوي */
+  font-size: 18px;
+
+  min-width: 100px; /* حتى تثبت شوي */
+  text-align: center;
+  border: 2px solid #3baaf7;
+}
+
+
+/* =====================
+   WORDS HOVER
+===================== */
+.word-text2 {
+  display: inline-block;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* .word-text2:hover {
+  transform: scale(1.05);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+} */
+
+/* .word-text2:active {
+  transform: scale(0.97);
+} */
+
+/* =====================
+   IMAGES HOVER
+===================== */
+.matched-img2 {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.matched-img2:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.matched-img2:active {
+  transform: scale(0.96);
+}
+
+
+.span-num2 {
+  font-weight: 800;
+  color: purple;
+}
+
+/* الصورة + النقطة */
+.img-with-dot2 {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  width: 30%;
+  justify-content: flex-start;
+}
+
+.matched-img2 {
+  height: 150px;
+  width: auto;
+}
+
+/* مكان ثابت للنقطة */
+.dot-wrapper2 {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* النقاط */
+.dot2 {
+  width: 14px;
+  height: 14px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* طبقة الخطوط */
+.lines-layer2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.error-mark8-u2-p19-q1 {
+    width: 22px;
+    height: 22px;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    vertical-align: middle;
+    position: absolute;
+    left: 13%;
+    top: 19%;
+    z-index: 99;
+}

@@ -1,0 +1,135 @@
+.wb-unit5-p4-q1 {
+  position: absolute;
+  padding: 5px;
+  top: 3.5%;
+  left: 32%;
+}
+
+.wb-unit5-p4-q2 {
+  position: absolute;
+  padding: 5px;
+  top: 52.5%;
+  left: 50%;
+}
+
+.svg-wrapper svg {
+  width: 120px;
+  height: auto;
+}
+
+.svg-wrapper svg * {
+  fill: currentColor !important;
+  stroke: black !important;
+}
+
+.color-palette {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.color-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+.color-palette-wb-unit5-p4-q2 {
+  position: absolute;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 8px;
+  left: 90%;
+  z-index: 9999;
+  flex-direction: column;
+  align-items: center;
+  top: -90%;
+}
+
+.h5-wb-unit5-p4-q2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    /* height: 50px; */
+    /* width: 70px; */
+    border: 2px solid #000000;
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    /* width: fit-content; */
+    margin-bottom: 25px;
+}
+.h5-wb-unit5-p4-q2 {
+  /* display: inline-block; مهم للـ transform */
+  transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+}
+/* ✨ Hover animation */
+.h5-wb-unit5-p4-q2:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.h5-wb-unit5-p4-q2:active {
+  transform: scale(0.98);
+}
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit5-p4-q1 {
+  position: absolute;
+  padding: 5px;
+  top: 2.5%;
+  left: 32%;
+}
+
+.wb-unit5-p4-q2 {
+  position: absolute;
+  padding: 5px;
+  top: 51.5%;
+  left: 50%;
+}
+
+}
+ @media (max-width: 1024px) {
+  .h5-wb-unit5-p4-q2 {
+ 
+    font-size: 16px;
+  
+}
+
+ }
+/* @media (max-width: 1024px) {
+  .wb-unit5-p4-q1 {
+    top: 14.5%;
+    left: 41%;
+  }
+
+  .wb-unit5-p4-q2 {
+    top: 45.5%;
+    left: 35%;
+  }
+}
+
+@media (max-width: 820px) {
+  .wb-unit5-p4-q1 {
+           top: 14.5%;
+    
+  }
+
+  .wb-unit5-p4-q2 {
+    top: 45.5%;
+    left: 35%;
+  }
+} */

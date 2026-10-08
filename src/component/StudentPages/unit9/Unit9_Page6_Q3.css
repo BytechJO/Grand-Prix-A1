@@ -1,0 +1,26 @@
+.unit9-p3-q2-canvas {
+    border: 3px solid #6ec1ff;
+    background: #ffffff;
+    border-radius: 12px;
+    height: 260px;
+    width: 270px;
+    box-sizing: border-box;
+    cursor: crosshair;
+}
+
+.canvas-wrapper {
+  position: relative;
+  width: 500px;
+  height: 80px;
+}
+
+.bg-canvas,
+.draw-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-canvas {
+  pointer-events: none; /* مهم */
+}

@@ -1,0 +1,45 @@
+.row-missing {
+    display: flex;
+    /* margin-bottom: 20px; */
+    align-items: baseline;
+    gap: 20px;
+        width: 100%;
+}
+#text{
+    width: 100%;
+}
+.input-wrapper-review9-p2-q2 {
+    position: relative;
+    display: inline-block;
+    /* width: 100%; */
+}
+
+
+.word-bank-review9-p2-q2 {
+    display: flex;
+    gap: 5px;
+    /* margin: 15px 0 25px; */
+    flex-wrap: wrap;
+    border: 2px solid #4b74ff;
+    background-color: #f2f6ff;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
+    /* height: 60px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.middle-img-review9-p2-q2{
+    height: 110px;
+    width: auto;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .middle-img-review9-p2-q2{
+    height: 110px;
+    width: auto;
+}
+
+}

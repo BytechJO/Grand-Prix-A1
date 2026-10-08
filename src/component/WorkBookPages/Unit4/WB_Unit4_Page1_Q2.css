@@ -1,0 +1,84 @@
+.sentence-wrapper-wb-unit4-p1-q2 {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 6px;
+  font-size: 18px;
+}
+
+.inline-input-wb-unit4-p1-q2 {
+  width: 100%;
+  /* border: none; */
+  border-bottom: 2px solid #333;
+  text-align: center;
+  font-size: 18px;
+  height: 30px;
+}
+
+/* .wb-svg-colorable {
+  width: 120px;
+}
+
+.wb-svg-colorable * {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+.color-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #444;
+  cursor: pointer;
+} */
+/* إزالة أي تعبئة بيضا */
+
+.color-palette-wb-unit4-p1-q2 {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.color-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  cursor: pointer;
+  /* color: rgb(255, 187, 0); */
+}
+
+.color-circle:hover {
+  transform: scale(1.1);
+}
+
+.svg-wrapper svg {
+  width: 140px;
+  height: auto;
+}
+
+.wb-svg-colorable svg * {
+  /* fill: currentColor !important; */
+  stroke: black !important;
+}
+
+.svg-placeholder {
+  width: 120px;
+  height: 120px;
+}
+
+
+.content-container-wb-unit4-p1-q2{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 30px;
+}
+
+.row2-wb-unit4-p1-q2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}

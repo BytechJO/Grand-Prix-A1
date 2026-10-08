@@ -1,0 +1,66 @@
+.h5-review6-p2-q2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 30px;
+  border: 2px solid #4a90e2;
+  border-radius: 20px;
+  background-color: #eef6ff;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.shapes-table-wrapper-review8-p2-q2 th,
+.shapes-table-wrapper-review8-p2-q2 td {
+  border: 2px solid #6aece1;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  height: 100px;
+}
+
+.shapes-table-wrapper-review8-p2-q2 th,
+.img-cell-wrapper-review8-p2-q2 {
+  background-color: rgb(254, 230, 234);
+}
+
+.transparent-border {
+  border-top: 0px !important;
+  border-left: 0px !important;
+}
+.shapes-table-wrapper-review8-p2-q2 {
+  border-collapse: collapse;
+  border: 3px solid #6aece1;
+  border-top: 0px;
+  border-left: 0px;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 5px 5px #6aece1;
+}
+
+.correct-mark-review8-p2-q2 {
+  color: red;
+  font-size: 45px;
+  font-weight: bold;
+}
+.wrong-badge-review8-p2-q2  {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:18px;
+  font-weight: bold;
+  z-index: 5;
+  border: 2px solid white;
+}

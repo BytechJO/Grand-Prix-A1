@@ -1,0 +1,265 @@
+/* ===== WRAPPER ===== */
+.wb-unit6-p2-q2-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 18px; */
+}
+
+
+
+/* ===== MATCHING BOX ===== */
+.matching-area {
+  position: relative;
+  width: 100%;
+  /* padding: 10px 0 0 0; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 140px;
+  align-items: start;
+}
+
+/* ===== COLUMNS ===== */
+.left-col-wb-unit6-p2-q2,
+.mid-col-wb-unit6-p2-q2,
+.right-col-wb-unit6-p2-q2 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* مثل الفراغ بالصورة */
+}
+
+/* ===== EACH ROW ITEM ===== */
+.item-wb-unit6-p2-q2 {
+  position: relative;
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+/* LEFT TEXT LOOK */
+.left-col-wb-unit6-p2-q2 .item-wb-unit6-p2-q2 {
+  justify-content: flex-start;
+}
+
+/* RIGHT TEXT LOOK */
+.right-col-wb-unit6-p2-q2 .item-wb-unit6-p2-q2 {
+  justify-content: flex-start;
+}
+
+/* ===== NUMBER STYLE (blue) ===== */
+.left-col-wb-unit6-p2-q2 .num-wb-unit6-p2-q2 {
+  width: 22px;
+  color: #3054c7;
+  font-weight: 800;
+  display: inline-block;
+}
+
+/* ===== DOTS ===== */
+.dot-wb-unit6-p2-q2 {
+  width: 12px;
+  height: 12px;
+  background: red;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+/* start dot at end of left sentence */
+.start-dot-wb-unit6-p2-q2 {
+  position: absolute;
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* end dot to the left of images / and to the left of right words */
+.end-dot-wb-unit6-p2-q2 {
+  cursor: pointer;
+}
+
+/* mid column dots: to the left and right of each image */
+.mid-col-wb-unit6-p2-q2 .item-wb-unit6-p2-q2 {
+  justify-content: center;
+  gap: 10px;
+}
+
+/* LEFT dot of image (matches your JSX placing) */
+.mid-col-wb-unit6-p2-q2 .dot.end-dot {
+  position: absolute;
+  left: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.word-text-wb-unit6-p2-q2 {
+    flex: 1;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.word-text-wb-unit6-p2-q2  {
+  display: inline-block; /* مهم للـ transform */
+  transition: 
+    transform 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+}
+/* ✨ Hover animation */
+.word-text-wb-unit6-p2-q2:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.word-text-wb-unit6-p2-q2:active {
+  transform: scale(0.98);
+}
+
+.disabled-word ,.disabled-hover {
+  pointer-events: none;
+  /* opacity: 0.6; */
+}
+
+/* منع أي hover effect */
+.disabled-word:hover ,.disabled-hover:hover{
+  transform: none;
+  box-shadow: none;
+  background-color: transparent;
+  cursor: default !important;
+}
+/* RIGHT column dot should be BEFORE text visually like the book */
+
+.right-col-wb-unit6-p2-q2 .dot.end-dot {
+  position: absolute;
+  left: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ===== IMAGES STYLE (like the book small cards) ===== */
+.mid-col-wb-unit6-p2-q2 img {
+    width: 130px;
+    height: 64px;
+    object-fit: fill;
+    border-radius: 10px;
+    /* border: 2px solid #bfbfbf; */
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* ===== WRONG MARK near left text (red circle with white x) ===== */
+.wrong-mark-wb-unit6-p2-q2 {
+  position: absolute;
+  left: -28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wrapper-wb-unit6-p2-q2 {
+  position: relative;
+  display: inline-block;
+}
+.write-drop-wb-unit6-p2-q2 {
+  height: 40px;
+  border-bottom: 2px solid #999;
+  /* border-radius: 6px; */
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.wrong-input-mark-wb-unit6-p2-q2 {
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: red;
+  color: white !important;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== WRITE SECTION (bottom) ===== */
+.write-section-wb-unit6-p2-q2 {
+  width: 100%;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+
+/* each writing line like the book */
+.write-line-wb-unit6-p2-q2 {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  gap: 12px;
+}
+
+.write-line-wb-unit6-p2-q2 span {
+  color: #1e40af;
+  font-weight: 800;
+  /* font-size: 20px; */
+}
+
+/* long underline input */
+.write-line-wb-unit6-p2-q2 input {
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 5px 6px;
+  font-size: 18px;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+/* disabled still looks like book */
+.write-line-wb-unit6-p2-q2 input:disabled {
+  opacity: 1;
+  color: #000;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .write-line-wb-unit6-p2-q2 input {
+
+    padding: 0px 9px;
+ 
+}
+}
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1000px) {
+  .wb-unit6-p2-q2-wrapper {
+    width: 92%;
+  }
+
+  .matching-area {
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 18px;
+  }
+
+
+}

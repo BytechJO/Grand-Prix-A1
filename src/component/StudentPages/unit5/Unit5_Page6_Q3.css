@@ -1,0 +1,43 @@
+.Unit5-P6-Q3-grid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+      flex-direction: column;
+
+}
+
+.Unit5-P6-Q3-box {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Unit5-P6-Q3-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.Unit5-P6-Q3-text{
+  font-size: 22px;
+
+}
+.review3-p1-q3-input {
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 991px) {
+.Unit5-P6-Q3-grid {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+}

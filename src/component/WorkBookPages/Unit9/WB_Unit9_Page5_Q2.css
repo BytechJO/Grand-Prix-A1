@@ -1,0 +1,102 @@
+.wb-unit9-qk-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wb-unit9-qk-layout {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+       row-gap: 60px;
+    justify-items: center;
+
+}
+.wb-svg-colorable svg {
+  pointer-events: none;
+}
+.wb-unit9-qk-svg-wrapper {
+  cursor: pointer;
+}
+
+.wb-unit9-qk-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wb-unit9-qk-item.right {
+  grid-row: span 2;
+  justify-content: center;
+}
+.wb-unit9-qk-svg-wrapper {
+  cursor: pointer;
+}
+
+.wb-unit9-qk-svg {
+  width: 220px;
+  height: 100px;
+  transition: fill 0.2s ease;
+}
+.wb-unit9-qk-img{
+    width: 220px;
+  height: 160px;
+}
+
+.wb-unit9-qk-options {
+  margin-top: 12px;
+  padding: 6px 14px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.wb-unit9-qk-option {
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 50%;
+  position: relative;
+  border: 2px solid transparent;
+}
+
+.wb-unit9-qk-option.active {
+  border-color: #1d4f7b;
+  font-weight: bold;
+}
+
+.wb-unit9-qk-wrong-mark {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .wb-unit9-qk-layout {
+
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+.wb-unit9-qk-item.right {
+    grid-row:auto;
+    justify-content: flex-start;
+}
+}
+@media (max-width: 820px) {
+  .wb-unit9-qk-layout {
+  
+    justify-items: center;
+}
+}

@@ -1,0 +1,41 @@
+.error-mark8-u2-p19-q2 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: absolute;
+  left: 20%;
+  top: 0%;
+  z-index: 99;
+}
+.word-text2.selected-item {
+  background: #72d0f6;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(114, 208, 246, 0.7);
+}
+
+.matched-img2.selected-item {
+  outline: 2px solid #72d0f6;
+  outline-offset: 4px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(114, 208, 246, 0.7);
+}
+.container12-unit2-pg10-q2 {
+  /* margin: auto;
+      */
+  width: 100%;
+  position: relative;
+  user-select: none;
+  margin-bottom: 30px;
+}

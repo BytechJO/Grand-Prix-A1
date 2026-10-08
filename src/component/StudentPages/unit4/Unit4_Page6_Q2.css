@@ -1,0 +1,81 @@
+.unit4-q2-p6-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-unit4-q2-p6-forall {
+  width: 60%;
+}
+
+
+.unit4-q2-p6-table {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.unit4-q2-p6-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.unit4-q2-p6-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  width: 40%;
+}
+
+.unit4-q2-p6-canvas {
+  border: 3px solid #6ec1ff;
+  background: #ffffff;
+  border-radius: 12px;
+  height: 100px !important;
+  width: 270px !important;
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+
+/* حاوية الأدوات */
+.unit4-q2-p6-tools {
+  display: flex;
+  gap: 10px;
+  /* margin-bottom: 15px; */
+  justify-content: center;
+}
+
+/* زر الأداة */
+.unit4-q2-p6-tool-btn {
+  padding: 6px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  background: #f9f9f9;
+  font-size: 14px;
+  /* cursor: pointer; */
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.unit4-q2-p6-tool-btn:hover {
+  background: #eee;
+}
+
+/* الأداة المختارة */
+.unit4-q2-p6-tool-btn.active-tool {
+  background: #e6ddff;
+  border-color: #7b5cff;
+  color: #4b2fb8;
+  font-weight: 600;
+}
+
+
+/* .canvas-pen {
+  cursor: url('/src/assets/unit1/imgs/pencil.png'), auto;
+}
+
+.canvas-eraser {
+  cursor: url('/src/assets/unit1/imgs/eraser.png'), auto;
+} */

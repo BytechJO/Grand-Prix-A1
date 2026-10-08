@@ -1,0 +1,139 @@
+
+
+.crossword-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.crossword-grid {
+  display: inline-block;
+}
+
+.row-review7-p1-q1 {
+  display: flex;
+}
+.drag-over-cell {
+  background-color: #e3f2fd;      /* أزرق فاتح */
+  border: 2px dashed #1976d2;     /* إطار أزرق */
+  transform: scale(1.1);          /* تكبير خفيف */
+  transition: all 0.2s ease;
+}
+
+.cell2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #2e9ad0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  background: #c6e6f7; /* الأزرق الفاتح */
+}
+
+.white {
+  background: #ffffff;
+}
+
+.number {
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.letter22 {
+  width: 100%;
+  height: 100%;
+  /* border: none; */
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  text-transform: lowercase;
+}
+
+.error-badge-review7-p1-q1 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #ff2b2b;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 5;
+  border: 2px solid white;
+}
+
+.puzzle-images-box-review7-p1-q1 {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.column-box-review7-p1-q1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.column-box-review7-p1-q1 .label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c5287;
+  text-align: center;
+}
+
+.img-item-review7-p1-q1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-item-review7-p1-q1 .num {
+  color: #2c5287;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.img-item-review7-p1-q1 img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    /* border: 2px solid #bcd7ff; */
+    border-radius: 10px;
+    /* padding: 5px; */
+    background: white;
+}
+
+.grid-container-review7-p1-q1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 25px;
+  gap: 45px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+ .grid-container-review7-p1-q1 { 
+  flex-direction: row !important;
+ }
+}
+
+@media (max-width: 1024px) {
+.grid-container-review7-p1-q1 {
+   
+    flex-direction: column-reverse;
+}
+}

@@ -1,0 +1,47 @@
+.click-icon-review3-page1-2 {
+  position: absolute;
+  padding: 5px;
+  top: 10.8%;
+  left: 35%;
+  cursor: pointer;
+}
+.click-icon-review3-page1-1 {
+  position: absolute;
+  padding: 5px;
+  bottom: 26.8%;
+  left: 35%;
+  cursor: pointer;
+}
+.click-icon-review3-page1-3 {
+  position: absolute;
+  padding: 5px;
+  top: 29.8%;
+  left: 52.5%;
+  cursor: pointer;
+}
+.headset-icon-CD-review3-page1-1 {
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 3px; */
+  padding: 5px;
+  bottom: 26%;
+  left: 24.5%;
+  cursor: pointer;
+}
+/* @media screen and (max-width: 1024px) and (max-height: 600px) {
+  .click-icon-review3-page1-2 {
+    top: 9.8%;
+  }
+  .click-icon-review3-page1-3 {
+    top: 28.8%;
+  }
+  .click-icon-review3-page1-1 {
+    bottom: 26% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .click-icon-review3-page1-1 {
+    bottom: 29%;
+  }
+} */

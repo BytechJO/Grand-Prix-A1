@@ -1,0 +1,21 @@
+.custom-popup {
+  border-radius: 25px !important;
+  padding: 0 !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.custom-popup-content {
+  padding: 25px;
+  text-align: center;
+}
+
+.custom-popup-content h2 {
+    font-size: 25px;
+    color: black;
+}
+.swal2-actions{
+        display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

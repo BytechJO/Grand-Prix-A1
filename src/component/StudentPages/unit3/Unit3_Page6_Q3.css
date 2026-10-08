@@ -1,0 +1,66 @@
+.unit3-q6-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.unit3-q6-table {
+  border: 2px solid #3fa9f5;
+  border-radius: 12px;
+  margin: 20px 0px;
+}
+
+.unit3-q6-row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #3fa9f5;
+}
+
+.unit3-q6-row:last-child {
+  border-bottom: none;
+}
+
+.unit3-q6-text {
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* الدائرة الحمراء مع إكس أبيض */
+.unit3-q6-wrong-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white; /* زي اللي طلبتي قبل */
+  z-index: 30;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.unit3-q6-canvas {
+  border-left: 1px solid #3fa9f5;
+  background: #fff;
+  height: 80px;
+  width: 100%;
+  cursor: crosshair;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .unit3-q6-table {
+    margin: 0px 0px;
+  }
+  .unit3-q6-text {
+    font-size: 20px;
+  }
+}

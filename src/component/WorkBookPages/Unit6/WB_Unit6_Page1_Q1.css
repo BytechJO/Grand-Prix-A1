@@ -1,0 +1,15 @@
+.h5-wb-unit5-p1-q1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 6px 14px; */
+    /* border: 2px solid #4a90e2; */
+    border-radius: 20px;
+    /* background-color: #eef6ff; */
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 25px;
+}

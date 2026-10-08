@@ -1,0 +1,159 @@
+.container12 {
+  margin: auto;
+  position: relative;
+  user-select: none;
+  margin-bottom: 30px;
+}
+
+.drop-inner-review3-p1-q2{
+  height: 40px;
+}
+.matching-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* الكلمة + النقطة */
+.word-with-dot2 {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+/* =====================
+   WORDS HOVER
+===================== */
+.word-text2-review3-p1-q2 {
+  display: inline-block;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.word-text2-review3-p1-q2:hover {
+  transform: scale(1.05);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.word-text2-review3-p1-q2:active {
+  transform: scale(0.97);
+}
+/* النص يأخذ مساحة عشان النقطة ما تتحرك */
+.word-text2-review3-p1-q2 {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 700;
+  /* background: #b7eaff; */
+  border-radius: 20px;
+  font-size: 20px;
+  width: 230px;
+  text-align: start;
+  border: 2px solid transparent;
+}
+
+.span-num2 {
+  font-weight: 800;
+  color: purple;
+}
+
+/* الصورة + النقطة */
+.img-with-dot2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 10px;
+}
+
+.matched-img2 {
+  height: 150px;
+  width: auto;
+}
+
+/* مكان ثابت للنقطة */
+.dot-wrapper2 {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* النقاط */
+.dot2 {
+  width: 14px;
+  height: 14px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* طبقة الخطوط */
+.lines-layer2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.error-mark-review3-p1-q2 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: absolute;
+  left: 28%;
+  top: 28%;
+}
+
+.unscramble-input {
+  width: 90%;
+  /* padding: 6px 10px; */
+  border: 2px solid #626262;
+  border-radius: 8px;
+  /* margin-top: 8px; */
+  font-size: 20px;
+}
+
+.unscramble-input:focus {
+  outline: none;
+  border: 2px solid #8ab4f8;
+}
+
+.input-error-x {
+  position: absolute;
+  right: 100%;
+    top: 43%;
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+   width: 25px;
+  height: 25px;
+ 
+}

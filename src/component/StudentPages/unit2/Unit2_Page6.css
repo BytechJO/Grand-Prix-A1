@@ -1,0 +1,58 @@
+.headset-icon-CD-unit2-page6-1 {
+  position: absolute;
+  padding: 5px;
+  top: 4%;
+  left: 36%;
+  cursor: pointer;
+}
+
+.click-icon-unit2-page6-1 {
+  position: absolute;
+  padding: 5px;
+  top: 3.5%;
+  left: 35.5%;
+  cursor: pointer;
+}
+.click-icon-unit2-page6-2 {
+  position: absolute;
+  padding: 5px;
+  top: 32%;
+  left: 42.2%;
+  cursor: pointer;
+}
+.headset-icon-CD-unit2-page6-2 {
+  position: absolute;
+  padding: 5px;
+  bottom: 29%;
+  left: 24%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  /* .click-icon-unit2-page6-1 {
+    top: 2.5% !important;
+  }
+  .click-icon-unit2-page6-2 {
+    top: 31% !important;
+  }
+  .headset-icon-CD-unit2-page6-2 {
+        bottom: 28% !important;
+    } */
+}
+@media (max-width: 1024px) {
+  /* .headset-icon-CD-unit2-page6-2 {
+    bottom: 32%;
+  } */
+}
+@media (max-width: 820px) {
+  /* .click-icon-unit2-page6-1 {
+    top: 4%;
+  }
+  .click-icon-unit2-page6-2 {
+    top: 32.5%;
+  }
+  .headset-icon-CD-unit2-page6-2 {
+    bottom: 30%;
+    left: 25%;
+  } */
+}

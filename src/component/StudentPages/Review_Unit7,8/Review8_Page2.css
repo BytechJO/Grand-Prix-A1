@@ -1,0 +1,59 @@
+.click-icon-review8-page2-2 {
+  position: absolute;
+  padding: 5px;
+  top: 3.8%;
+  right: 54%;
+  cursor: pointer;
+}
+.click-icon-review8-page2-1 {
+  position: absolute;
+  padding: 5px;
+  top: 45.5%;
+  left: 30.5%;
+
+  cursor: pointer;
+}
+.click-icon-review8-page2-3 {
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 3px; */
+  padding: 5px;
+  top: 19.5%;
+  left: 76.5%;
+  cursor: pointer;
+}
+
+.click-icon-review8-page2-4 {
+  position: absolute;
+  padding: 5px;
+  top: 65.5%;
+  left: 39.2%;
+  cursor: pointer;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .click-icon-review8-page2-2 {
+    top: 3% !important;
+    right: 52% !important;
+  }
+  .click-icon-review8-page2-3 {
+    top: 18.5%;
+  }
+  .click-icon-review8-page2-1 {
+    top: 44.5%;
+  }
+  .click-icon-review8-page2-4 {
+    top: 64.5% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .click-icon-review8-page2-2 {
+    top: 4%;
+    right: 56%;
+  }
+  .click-icon-review8-page2-4 {
+    top: 65%;
+    left: 39.5%;
+  }
+} */

@@ -1,0 +1,54 @@
+.click-icon-review10-page1-2 {
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 3px; */
+  padding: 5px;
+  top: 9.5%;
+  left: 40.5%;
+  cursor: pointer;
+}
+
+.click-icon-review10-page1-1 {
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 3px; */
+  padding: 5px;
+  top: 62%;
+  left: 40.5%;
+  cursor: pointer;
+}
+.click-icon-review10-page1-3 {
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 3px; */
+  padding: 5px;
+  bottom: 56%;
+  left: 30%;
+
+  cursor: pointer;
+}
+.click-icon-review10-page1-4 {
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 3px; */
+  padding: 5px;
+  bottom: 26%;
+  left: 30.5%;
+  cursor: pointer;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .click-icon-review10-page1-2 {
+    top: 8.5%;
+  }
+  .click-icon-review10-page1-3 {
+    bottom: 55%;
+  }
+  .click-icon-review10-page1-1 {
+    top: 61%;
+  }
+} */

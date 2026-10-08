@@ -1,0 +1,51 @@
+.gk-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.image-container-unit10-p5-q1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 150;
+}
+.gk-item {
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gk-image {
+  width: 100px;
+  height: 100px;
+  /* object-fit: contain; */
+}
+
+.gk-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.gk-option {
+  font-size: 28px;
+  position: relative;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: 0.2s;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.gk-option:hover {
+  transform: scale(1.2);
+}

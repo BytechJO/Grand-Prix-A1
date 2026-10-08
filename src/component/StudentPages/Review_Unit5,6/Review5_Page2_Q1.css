@@ -1,0 +1,63 @@
+.word-row-review5-p2-q1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.first-letter-input-review5-p2-q1 {
+  border-bottom: 2px solid black;
+  display: flex;
+  width: 62px;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.q-img-review5-p2-q1 {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+.circle-choice-review5-page2-q1 {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: white;
+  user-select: none;
+}
+
+.circle-choice-review5-page2-q1.active {
+  border: 2px solid #4a90e2;
+  /* font-weight: bold; */
+}
+
+.wrong-mark-review5-p2-q1 {
+  position: absolute;
+  bottom: 41px;
+  right: 65px;
+  background: red;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ffffff !important;
+  justify-content: center;
+  z-index: 10;
+}

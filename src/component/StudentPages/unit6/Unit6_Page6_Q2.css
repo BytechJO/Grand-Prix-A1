@@ -1,0 +1,108 @@
+.input-wrapper-unit6-p6-q2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 22px;
+}
+.input-wrapper-unit6-p6-q2 input {
+  font-size: 22px;
+}
+.question-grid-unit6-page6-q2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 100%;
+  justify-items: center;
+  margin-top: 20px;
+}
+.img-option-unit6-p6-q2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.circle-wrapper,
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.write-input-unit6-page6-q2 {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #888;
+  /* border-radius: 8px; */
+  outline: none;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.write-input-unit6-page6-q2.slot-over {
+  border-style: dashed;
+  background: #ddeaff;
+  border-color: #2c5287;
+  box-shadow: 0 0 0 3px rgba(44, 82, 135, 0.15);
+}
+
+.write-input-unit6-page6-q2.slot-wrong {
+  border-color: #e53e3e;
+  background: #fff5f5;
+}
+
+.write-input-unit6-page6-q2.slot-locked {
+  cursor: default;
+}
+
+.choices-unit6-page6-q2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.circle-choice-unit6-page6-q2 {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: white;
+  user-select: none;
+}
+
+.circle-choice-unit6-page6-q2.active {
+  border: 2px solid #1d4f7b;
+  font-weight: bold;
+  border-color: #1d4f7b;
+}
+
+.wrong-mark-unit6-page6-q2 {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  display: flex;
+  border:2px solid white;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

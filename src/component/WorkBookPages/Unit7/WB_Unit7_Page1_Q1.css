@@ -1,0 +1,13 @@
+.img-wb-unit6-p4-q2 {
+    height: 110px;
+    width: auto;
+}
+
+
+
+@media (max-width: 820px) {
+    .img-wb-unit6-p4-q2 {
+    height: 110px;
+    width: auto;
+}
+}

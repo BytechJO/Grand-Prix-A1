@@ -1,0 +1,159 @@
+/* ===== الأساسيات ===== */
+.content-container10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== العنوان =====
+.header-title-page8 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2c5287;
+  text-align: center;
+  margin-top: 10px;
+} */
+
+/* ===== الحاوية الخاصة بالجمل ===== */
+.sentence-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* width: 100%; */
+      margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.sentence-container2-unit2-pg10-q1{
+   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 120px;
+  row-gap: 80px;
+  /* width: 100%; */
+      margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* رقم الجملة */
+.num2 {
+  color: #2c5287;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* الكلمة */
+.word-text10 {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  /* transition: 0.3s ease; */
+  cursor: pointer;
+  font-size: 25px;
+  position: relative;
+}
+
+/* لما الطالب يضغط الكلمة */
+.circled2 {
+  border: 2px solid #2c5287;
+  background-color: rgba(44, 82, 135, 0.15);
+  transform: scale(1.05);
+}
+
+/* لما تكون الكلمة غلط بعد الفحص */
+.wrong-x10 {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pop 0.2s ease-in-out;
+}
+
+/* @keyframes pop {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+
+/* ===== 🧩 الاستجابة للشاشات ===== */
+
+/* تابلت */
+@media (max-width:1200px) {
+  .content-container10 {
+    width: 100%;
+  }
+
+  .sentence-container2 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+    .sentence-container2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+/* موبايل */
+@media (max-width: 600px) {
+  .content-container10 {
+    width: 90vw;
+    gap: 25px;
+  }
+
+  .sentence-container2 {
+     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .sentence-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .num2 {
+    width: 26px;
+    height: 26px;
+   
+  }
+
+  .word-text10 {
+    padding: 4px 10px;
+    margin: 4px;
+    text-align: center;
+  }
+
+  .action-buttons-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .try-again-button,
+  .check-button2 {
+    width: 100%;
+  }
+}

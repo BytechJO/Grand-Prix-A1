@@ -1,0 +1,127 @@
+.headset-icon-CD-unit4-page1-1,
+.click-icon-unit4-page1-1,
+.headset-icon-CD-unit4-page1-2,
+.click-icon-unit4-page1-2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 2px; */
+  padding: 5px;
+}
+
+.headset-icon-CD-unit4-page1-1 {
+  top: 7%;
+  right: 7.5%;
+}
+
+.click-icon-unit4-page1-1 {
+  left: 20%;
+  top: 42%;
+}
+
+.headset-icon-CD-unit4-page1-2 {
+  bottom: 37%;
+  left: 26%;
+}
+
+.click-icon-unit4-page1-2 {
+  bottom: 10.5%;
+  right: 39%;
+}
+
+#num-1-unit4 {
+  top: 31%;
+  left: 14.5%;
+}
+
+#num-2-unit4 {
+  bottom: 45%;
+  left: 39.5%;
+}
+
+#num-3-unit4 {
+  bottom: 24%;
+  left: 36.5%;
+}
+
+#num-4-unit4 {
+  bottom: 22%;
+  right: 44%;
+}
+
+#num-5-unit4 {
+  top: 54%;
+  left: 32%;
+}
+
+#num-6-unit4 {
+  bottom: 36%;
+  right: 46%;
+}
+
+#num-7-unit4 {
+  left: 30%;
+  top: 19.5%;
+}
+
+#num-8-unit4 {
+  right: 23%;
+  top: 38.5%;
+}
+
+.highlight-svg-unit4 {
+  position: absolute;
+  top: 5.5%;
+  left: 53.5%;
+  height: 21.5%;
+  pointer-events: none;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .headset-icon-CD-unit4-page1-1 {
+    top: 7% !important;
+    right: 4.5% !important;
+  }
+  .click-icon-unit4-page1-1 {
+    left: 21% !important;
+    top: 42% !important;
+  }
+  .headset-icon-CD-unit4-page1-2 {
+    bottom: 35.5% !important;
+    left: 27% !important;
+  }
+  .click-icon-unit4-page1-2 {
+    bottom: 8.5% !important;
+    right: 35% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .headset-icon-CD-unit4-page1-1 {
+    top: 6%;
+    right: 10.5%;
+  }
+
+  .headset-icon-CD-unit4-page1-2 {
+    bottom: 39.5%;
+    left: 26%;
+  }
+  .click-icon-unit4-page1-2 {
+    bottom: 13.5%;
+    right: 42%;
+  }
+  .click-icon-unit4-page1-1 {
+    left: 19%;
+    top: 41%;
+  }
+  .highlight-svg-unit4 {
+    position: absolute;
+    top: 8.5%;
+    left: 53.5%;
+    height: 14.5%;
+    width: 21%;
+    pointer-events: none;
+  }
+} */

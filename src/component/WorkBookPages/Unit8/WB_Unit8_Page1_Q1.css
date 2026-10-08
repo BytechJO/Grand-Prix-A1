@@ -1,0 +1,89 @@
+.wb-unit8-p1-q1-grid {
+  display: flex;
+width: 100%;
+  gap: 25px;
+  justify-content: space-between;
+}
+.sentence-container-wb-unit8-p1-q1 {
+  display: flex;
+  width: 100%;
+  /* gap: 20px; */
+}
+.sentence-wb-unit8-p1-q1 {
+  font-size: 16px;
+  /* font-weight: 600; */
+  border: 2px solid black;
+  border-radius: 8px;
+  /* height: 40px; */
+  /* width: 193px; */
+  padding: 5px;
+  width: 60%;
+  text-align: start;
+}
+.draggable-fixed-wrapper {
+  width: 260px; /* ثابتي العرض */
+  height: 60px; /* ثابتي الارتفاع */
+  box-sizing: border-box;
+}
+
+.sentence-container-wb-unit8-p1-q1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.drag-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #2c5287;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: white;
+  flex-shrink: 0; /* مهم جداً */
+}
+
+.word-container-wb-unit8-p1-q1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 25px;
+}
+.wb-unit8-p1-q1-box {
+  position: relative;
+  width: 160px;
+  height: 150px;
+  /* border: 2px solid #999; */
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.wb-unit8-p1-q1-input-wrapper {
+  width: 43px;
+  height: 43px;
+  border: 1px solid black;
+  border-radius: 9px;
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 26px;
+  right: 4px;
+}
+
+@media (max-width: 1024px) {
+  .wb-unit8-p1-q1-grid {
+    display: grid;
+
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

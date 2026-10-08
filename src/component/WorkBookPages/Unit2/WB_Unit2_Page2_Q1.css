@@ -1,0 +1,63 @@
+.word-with-dot2-wb-u2-p2-q1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.word-text2-wb-u2-p2-q1 {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 700;
+  /* background: #b7eaff; */
+  border-radius: 20px;
+  font-size: 20px;
+  width: 200px;
+  text-align: start;
+  border: 2px solid transparent;
+}
+
+.word-bank-wb-u2-p2-q1 {
+  display: flex;
+  gap: 5px;
+  /* margin: 15px 0 25px; */
+  flex-wrap: wrap;
+  border: 2px solid #4b74ff;
+  background-color: #f2f6ff;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 4px;
+  /* height: 60px; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* margin: 10px 0px; */
+}
+
+.word-bank-container-wb-u2-p2-q1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.input-error-x-wb-u2-p2-q1 {
+    position: absolute;
+    right: 37%;
+    top: 50%;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}

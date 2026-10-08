@@ -1,0 +1,29 @@
+.content-review10-p1-q2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.letter-input-review10-p1-q2 {
+    border-bottom: 2px solid black;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 30px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+        .content-review10-p1-q2 {
+        flex-direction: row !important;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+.content-review10-p1-q2 {
+
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+}

@@ -1,0 +1,56 @@
+.click-icon-unit5-page6-2 {
+  position: absolute;
+  padding: 5px;
+  top: 3.2%;
+  right: 14.5%;
+  cursor: pointer;
+}
+
+.click-icon-unit5-page6-1 {
+  position: absolute;
+  padding: 5px;
+  top: 45.5%;
+  left: 42.5%;
+  cursor: pointer;
+}
+.click-icon-unit5-page6-3 {
+  position: absolute;
+  padding: 5px;
+  top: 45.5%;
+  left: 42.5%;
+
+  cursor: pointer;
+}
+.headset-icon-CD-unit5-page6-1 {
+  position: absolute;
+  padding: 5px;
+  bottom: 29.5%;
+  left: 24.5%;
+  cursor: pointer;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .click-icon-unit5-page6-2 {
+    top: 2% !important;
+    right: 12% !important;
+  }
+  .click-icon-unit5-page6-3 {
+    top: 44.5%;
+    left: 42.5%;
+  }
+  .headset-icon-CD-unit5-page6-1 {
+    bottom: 29% !important;
+    left: 24.5% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .click-icon-unit5-page6-2 {
+    top: 3%;
+    right: 17%;
+  }
+  .headset-icon-CD-unit5-page6-1 {
+    bottom: 32%;
+    left: 24.5%;
+  }
+} */

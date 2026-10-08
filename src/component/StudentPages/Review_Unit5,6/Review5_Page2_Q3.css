@@ -1,0 +1,58 @@
+.look-read-container-review5-p2-q3 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 25px;
+}
+
+
+.question-row-review5-p2-q3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  height:200px;
+    font-size: 22px;
+}
+
+.sentence-review5-p2-q3 {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 8px; */
+  width: 65%;
+  align-items: center;
+    font-size: 22px;
+    justify-content: space-evenly;
+}
+
+.blank-options-review5-p2-q3 {
+  display: flex;
+  gap: 10px;
+    font-size: 22px;  
+    font-weight:700;
+  flex-direction: column;position: relative;
+}
+
+.option-word-review5-p2-q3 {
+  padding: 3px 10px;
+  /* border: 2px solid #bbb; */
+  border-radius: 25px;
+  cursor: pointer;
+  /* transition: 0.2s; */
+  position: relative;
+}
+
+.option-word-review5-p2-q3.selected2 {
+ border: 3px solid #2c5287;
+ position: relative;
+}
+
+.question-img-review5-p2-q3 {
+  width: 170px;
+  height: auto;
+  border-radius: 8px;
+}
+
+

@@ -1,0 +1,160 @@
+/* ========== WRAPPER ========== */
+.exercise-wrapper-wb-unit10-p2-q1 {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+  color: black;
+ 
+}
+
+
+/* ========== ROW LAYOUT ========== */
+.conversation-row-wb-unit10-p2-q1 {
+  display: grid;
+  grid-template-columns:
+    28px          /* number */
+    280px         /* question bubble */
+    120px         /* food / thought */
+    280px;        /* answer bubble */
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+/* ========== NUMBER ========== */
+.num-wb-unit10-p2-q1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ========== IMAGES ========== */
+.thought-img-wb-unit10-p2-q1 {
+  width: 95px;
+  height: auto;
+}
+
+.person-img-wb-unit10-p2-q1 {
+  width: 170px;
+  height: auto;
+}
+
+/* ========== BUBBLES ========== */
+.bubble {
+  position: relative;
+  border: 2px solid #333;
+  border-radius: 16px;
+  padding: 10px 14px;
+     display: flex;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #fff;
+    align-items: center;
+}
+
+/* Question bubble tail (left)
+.question-bubble-wb-unit10-p2-q1::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 24px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 14px solid #333;
+}
+
+/* Answer bubble tail (right) */
+/* .answer-bubble-wb-unit10-p2-q1::before {
+  content: "";
+  position: absolute;
+  right: -14px;
+  top: 24px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 14px solid #333;
+}  */
+
+/* ========== INPUT LINE ========== */
+.line-input-wb-unit10-p2-q1 {
+  /* border: none; */
+  border-bottom: 2px solid #333;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 140px;
+  height: 25px;
+  margin: 0 4px;
+}
+
+.line-input-wb-unit10-p2-q1.small-wb-unit10-p2-q1 {
+  min-width: 70px;
+  text-align: center;
+}
+
+.line-input-wb-unit10-p2-q1:disabled {
+  color: black;
+}
+
+/* ========== ACTION BUTTONS ========== */
+.action-buttons-container-wb-unit10-p2-q1 {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.try-again-button-wb-unit10-p2-q1,
+.show-answer-btn-wb-unit10-p2-q1,
+.check-button2-wb-unit10-p2-q1 {
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.try-again-button-wb-unit10-p2-q1 {
+  background: #f2f2f2;
+  color: #333;
+}
+
+.show-answer-btn-wb-unit10-p2-q1 {
+  background: #6ec1e4;
+  color: white;
+}
+
+.check-button2-wb-unit10-p2-q1 {
+  background: #1d4f7b;
+  color: white;
+}
+
+
+.wrong-circle-x-wb-unit10-p2-q1{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: red; /* أحمر */
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  border: 2px solid white;
+}
+
+/* ========== RESPONSIVE (optional) ========== */
+@media (max-width: 900px) {
+  .conversation-row-wb-unit10-p2-q1 {
+    grid-template-columns: 20px 1fr 1fr 1fr;
+    row-gap: 12px;
+  }
+
+
+
+}

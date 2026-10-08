@@ -1,0 +1,119 @@
+.question-wrapper10 {
+  margin: auto;
+  font-size: 1.4rem;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
+
+.q-input10-unit2-p10-q4 {
+  border-bottom: 2px solid #000000;
+  padding: 5px 8px;
+  /* border-radius: 6px; */
+  font-size: 25px;
+  width: 150px;
+  text-align: center; /* توسيط أفقي */
+  vertical-align: middle; /* توسيط عمودي */
+  line-height: normal;
+  height: 40px
+}
+.show-answer-red1 {
+  color: red !important;
+
+}
+
+.row-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.num-span {
+  color: #2c5287;
+  font-weight: 700;
+}
+
+.error-mark-input {
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  width: 26px;
+  height: 26px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 999999;
+  border: 2px solid white;
+}
+
+.row-content10-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 55px;
+}
+
+
+.q-input:focus {
+  border-color: gray; /* هنا يصير اللون رمادي */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* ظل خفيف لطيف */
+}
+
+
+/* --------------- RESPONSIVE FIX --------------- */
+
+/* الصورة تتقلص تلقائياً بدون ما يتغير شكلها */
+.q-img10 {
+width: 100px;
+  height: auto;
+}
+
+/* منع العناصر من الخروج خارج البوكس */
+.row-content10-1 {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .row-content10-1 {
+    
+    gap: 92px;
+   
+}}
+/* في الشاشات الصغيرة يصير كل صف بعمود واحد */
+@media (max-width: 900px) {
+  .row-content10-1 {
+    grid-template-columns: 1fr;
+            justify-items: center;
+    gap: 20px;
+  }
+
+  /* .row2 {
+    flex-wrap: wrap;
+  } */
+
+  .q-img10 {
+    width: 150px;
+  }
+}
+
+/* يمنع أي عنصر من التمدد خارج الحاوية */
+.question-wrapper10,
+.row-content {
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.q-input10 {
+  max-width: 100%;
+}

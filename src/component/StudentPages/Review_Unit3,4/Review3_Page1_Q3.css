@@ -1,0 +1,140 @@
+.review3-p1-q3-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px; */
+  align-items: flex-start;
+}
+
+.review3-p1-q3-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.review3-p1-q3-grid {
+  display: flex;
+  gap: 25px;
+}
+
+.review3-p1-q3-box {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  /* width: 260px; */
+}
+
+.review3-p1-q3-img {
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  height: 150px;
+}
+
+.review3-p1-q3-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.review3-p1-q3-text {
+  font-size: 16px;
+}
+
+.review3-p1-q3-input-box {
+  position: relative;
+}
+
+.review3-p1-q3-input {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid rgb(0, 179, 255);
+  border-radius: 6px;
+}
+
+.review3-p1-q3-input.wrong-input {
+  border-color: red;
+}
+
+.review3-p1-q3-x {
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  font-size: 12px;
+}
+
+.review3-p1-q3-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+/* ⭐ ترتيب الكروت على شكل Grid بدل Flex */
+.review3-p1-q3-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 كروت */
+  gap: 25px;
+  width: 100%;
+}
+
+/* ⭐ المربعات نفسها */
+.review3-p1-q3-box {
+  background: white;
+  /* padding: 10px; */
+  border-radius: 8px;
+  /* width: 100%; مهم حتى تكون ريسبونسيف */
+  box-sizing: border-box;
+}
+
+/* 🔻 شاشة تابلت (من 991px وتحت) */
+@media (max-width: 1024px) {
+  .review3-p1-q3-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 كروت */
+    gap: 5px;
+    width: auto;
+  }
+  .review3-p1-q3-img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+/* 🔻 شاشة موبايل (من 600px وتحت) */
+@media (max-width: 600px) {
+  .review3-p1-q3-box {
+    width: 100px;
+  }
+
+  .review3-p1-q3-text {
+    font-size: 14px;
+  }
+
+  .review3-p1-q3-input {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .review3-p1-q3-x {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    right: -8px;
+    top: -8px;
+  }
+}

@@ -1,0 +1,17 @@
+.wrong-icon-review4-p1-q1 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 5;
+  border: 2px solid white;
+}

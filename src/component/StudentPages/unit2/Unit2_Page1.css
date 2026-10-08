@@ -1,0 +1,113 @@
+.headset-icon-CD-unit2-page1-1,
+.click-icon-unit2-page1-1,
+.headset-icon-CD-unit2-page1-2,
+.click-icon-unit2-page1-2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+  /* background-color: #6bcff6;
+  border-radius: 20px;
+  border: rgb(255, 255, 255) solid 2px; */
+  padding: 5px;
+}
+
+
+.headset-icon-CD-unit2-page1-1 {
+  top: 7%;
+  right: 14%;
+}
+
+.click-icon-unit2-page1-1 {
+  left: 19%;
+  top: 37%;
+}
+
+.headset-icon-CD-unit2-page1-2 {
+  bottom: 34.5%;
+  left: 26%;
+}
+
+.click-icon-unit2-page1-2 {
+  bottom: 11.5%;
+  right: 39%;
+}
+
+#num-1 {
+  top: 31%;
+  left: 34%;
+}
+
+#num-2 {
+  bottom: 38%;
+  left: 31%;
+}
+
+#num-3 {
+  top: 48%;
+  left: 28.5%;
+}
+
+#num-4 {
+  top: 16%;
+  left: 44%;
+}
+
+#num-5 {
+  top: 24%;
+  left: 3%;
+}
+
+#num-6 {
+  bottom: 40%;
+  right: 29%;
+}
+
+#num-7 {
+  bottom: 40.5%;
+  right: 25%;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+      .headset-icon-CD-unit2-page1-1 {
+        top: 7% !important;
+        right: 12% !important;
+    }
+        .headset-icon-CD-unit2-page1-2 {
+        bottom: 32% !important;
+        left: 27% !important;
+    }
+    .click-icon-unit2-page1-2 {
+        bottom: 9% !important;
+        right: 35% !important;
+    }
+}
+@media (max-width: 1024px) {
+  .headset-icon-CD-unit2-page1-1 {
+    top: 6%;
+    right: 18%;
+  }
+  .headset-icon-CD-unit2-page1-2 {
+    bottom: 38%;
+    left: 25%;
+  }
+  .click-icon-unit2-page1-2 {
+    bottom: 14.5%;
+    right: 43%;
+  }
+}
+
+@media (max-width: 820px) {
+  .headset-icon-CD-unit2-page1-1 {
+    top: 6.5%;
+    right: 16%;
+  }
+ .headset-icon-CD-unit2-page1-2 {
+        bottom: 36.5%;
+        left: 25%;
+    }
+  .click-icon-unit2-page1-2 {
+    bottom: 13%;
+    right: 41%;
+  }
+} */

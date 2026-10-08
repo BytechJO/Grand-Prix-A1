@@ -1,0 +1,6 @@
+.container-review10-p2-q2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+}

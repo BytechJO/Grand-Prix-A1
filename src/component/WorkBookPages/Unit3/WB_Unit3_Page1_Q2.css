@@ -1,0 +1,65 @@
+.number-option-wb-u3-p1-q2 {
+  font-size: 90px;
+  font-weight: 700;
+  color: transparent; /* الداخل شفاف */
+  -webkit-text-stroke: 2.5px #333; /* حد خارجي */
+  cursor: pointer;
+  margin: 0 14px;
+  transition: all 0.2s ease;
+}
+
+.number-option-wb-u3-p1-q2.colored {
+  color: green;
+  font-weight: bold;
+}
+
+.word-section1-wb-u3-p1-q2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+.img-wb-unit3-p1-q2{
+  height: 100px;
+    width: auto;
+}
+.question-box-wb-u3-p1-q2 {
+  border: 2px solid #92ccff;
+  border-radius: 10px;
+  /* padding: 15px 25px; */
+  /* width: 50%; */
+  background-color: #f9fcff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrong-mark-circle {
+     position: absolute;
+    top: 27px;
+    right: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .number-option-wb-u3-p1-q2 {
+    font-size: 75px;
+    
+}
+.img-wb-unit3-p1-q2{
+  height: 90px;
+    width: auto;
+}
+}

@@ -1,0 +1,44 @@
+.wrong-icon-review4-p1-q4 {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: red;
+  color: white;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.question-row-review4-p1-q4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.q-input-review4-p1-q4 {
+  border: 2px solid #000000;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 22px;
+  width: 30%;
+  margin-left: 10px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  position: relative;
+}
+.question-text-review4-p1-q4 {
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+}

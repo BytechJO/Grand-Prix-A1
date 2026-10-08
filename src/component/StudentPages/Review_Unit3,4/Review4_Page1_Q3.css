@@ -1,0 +1,91 @@
+.table-wrapper-wrapper-review4-p1-q3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.shapes-table-wrapper-review4-p1-q3 {
+  border-collapse: collapse;
+  border: 3px solid #4caf50;
+  width: 100%;
+  margin-top: 20px;
+    box-shadow: #4caf50 7px 7px;
+}
+
+.shapes-table-wrapper-review4-p1-q3 th,
+.shapes-table-wrapper-review4-p1-q3 td {
+  border: 2px solid #4caf50;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+}
+
+.img-cell-wrapper-review4-p1-q3 {
+  width: 150px !important;
+}
+
+.shape-img-wrapper-review4-p1-q3 {
+  display: block;
+  margin: auto;
+}
+
+.cell-wrapper-review4-p1-q3 {
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.cell-wrapper-review4-p1-q3.selected {
+  background-color: transparent;
+}
+
+.correct-mark {
+  color: red;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.cell-wrapper-review4-p1-q3 {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+}
+/* المربع نفسه */
+.cell {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+/* دائرة الأحمر مع X الأبيض */
+.wrong-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 5;
+  border: 2px solid white;
+}
+
+.correct-mark-wrapper-review4-p1-q3 {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+
+}

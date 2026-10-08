@@ -1,0 +1,188 @@
+.container3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  user-select: none;
+  padding-bottom: 85px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.word-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.word-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.H5 {
+  font-family: "Baloo 2", sans-serif;
+  font-size: clamp(24px, 6vw, 60px);
+  font-weight: 600;
+  color: transparent;
+  display: flex;
+  -webkit-text-stroke: 2px #5c5c5c;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* الأساس */
+.H5 {
+  display: inline-block; /* ضروري للـ transform */
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* ✨ Hover animation */
+.H5:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* 👇 Click feedback */
+.H5:active {
+  transform: scale(0.98);
+}
+.disabled-word {
+  pointer-events: none;
+  /* opacity: 0.6; */
+}
+
+/* منع أي hover effect */
+.disabled-word:hover {
+  transform: none;
+  box-shadow: none;
+  background-color: transparent;
+  cursor: default;
+}
+
+.start-dot1 {
+  left: 22%;
+  transform: translateX(-50%);
+}
+.end-dot1 {
+  right: 36%;
+  transform: translateX(-50%);
+}
+.lines-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.img-container2 {
+  display: flex;
+  align-items: center;
+}
+
+.dot1 {
+  width: 14px;
+  height: 14px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.start-dot1 {
+  /* left: 38%; */
+  transform: translateX(-50%);
+}
+.end-dot1 {
+  right: 10%;
+  transform: translateX(50%);
+}
+.color-palette {
+  position: absolute;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 8px;
+  left: 44%;
+  z-index: 9999;
+  flex-direction: column;
+  align-items: center;
+  top: 18%;
+}
+
+.color-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #333;
+}
+
+.H5 {
+  color: transparent;
+  -webkit-text-stroke: 2px #555;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 900;
+  transition: 0.2s ease;
+}
+
+#dot-start1 {
+  top: 18%;
+}
+#dot-start2 {
+  bottom: 22%;
+}
+
+.word-colored {
+  -webkit-text-stroke: 2px #555; /* نخلي الخط الخارجي نفس ما هو */
+  font-weight: 900;
+}
+
+/* ⭐ تم إضافتها */
+.error-mark3 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: absolute;
+  right: -3%;
+  top: 12%;
+}
+
+.div-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  width: 60%;
+}
+
+.word-outline,
+.word-colored {
+  font-family: "Fredoka", sans-serif;
+}

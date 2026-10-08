@@ -1,0 +1,79 @@
+.click-icon-unit2-page10-1 {
+  position: absolute;
+  padding: 5px;
+  top: 3.5%;
+  left: 32%;
+
+  cursor: pointer;
+}
+
+.headset-icon-CD-unit2-page10-1 {
+  position: absolute;
+  padding: 5px;
+  top: 4%;
+  left: 33%;
+  cursor: pointer;
+}
+.click-icon-unit2-page10-2 {
+  position: absolute;
+  padding: 5px;
+  top: 15%;
+  left: 40%;
+  cursor: pointer;
+}
+.click-icon-unit2-page10-3 {
+  position: absolute;
+  padding: 5px;
+  top: 49%;
+  left: 32%;
+
+  cursor: pointer;
+}
+
+.headset-icon-CD-unit2-page10-2 {
+  position: absolute;
+  padding: 5px;
+  top: 49%;
+  left: 34%;
+  cursor: pointer;
+}
+
+.click-icon-unit2-page10-4 {
+  position: absolute;
+  padding: 5px;
+  bottom: 21.8%;
+  left: 29.5%;
+  cursor: pointer;
+}
+/* 
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .click-icon-unit2-page10-4 {
+    bottom: 21.5% !important;
+  }
+  .click-icon-unit2-page10-1 {
+    top: 2.5%;
+  }
+  .click-icon-unit2-page10-2 {
+    top: 14%;
+  }
+}
+@media (max-width: 1024px) {
+  .click-icon-unit2-page10-4 {
+    bottom: 24.5%;
+  }
+}
+@media (max-width: 820px) {
+  .click-icon-unit2-page10-1 {
+    top: 4%;
+  }
+  .click-icon-unit2-page10-2 {
+    top: 15.6%;
+    left: 40%;
+  }
+  .click-icon-unit2-page10-3 {
+    top: 49.5%;
+  }
+  .click-icon-unit2-page10-4 {
+    bottom: 23.5%;
+  }
+} */

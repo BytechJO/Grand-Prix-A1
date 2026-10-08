@@ -1,0 +1,102 @@
+.word-text2-wb-unit8-p3-q1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  /* height: 50px; */
+  width: 70px;
+  border: 2px solid #000000;
+  border-radius: 9px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  position: relative;
+  /* width: fit-content; */
+  margin-bottom: 25px;
+}
+
+.img-dot-container-wb-unit8-p3-q1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.word-text2-wb-unit8-p3-q1 {
+  /* display: inline-block; مهم للـ transform */
+  transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  /* padding: 4px 6px; */
+  border-radius: 6px;
+}
+/* ✨ Hover animation */
+.word-text2-wb-unit8-p3-q1:hover {
+  transform: scale(1.06);
+  background-color: rgba(67, 15, 104, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.word-text2-wb-unit8-p3-q1:active {
+  transform: scale(0.98);
+}
+
+.container12-wb-unit8-p3-q1 {
+  margin: auto;
+  position: relative;
+  user-select: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.word-with-dot2-wb-unit8-p3-q1 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.error-mark8-wb-unit8-p3-q1 {
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    vertical-align: middle;
+    position: absolute;
+    left: 37%;
+    top: -13%;
+    z-index: 99;
+}
+
+#dot-img1-wb-unit8-p3-q1 {
+  position: absolute;
+  top: 6%;
+}
+
+#dot-img2-wb-unit8-p3-q1 {
+    position: absolute;
+    top: 17%;
+    left: 12%;
+}
+#dot-img3-wb-unit8-p3-q1 {
+    position: absolute;
+    top: 19%;
+    left: 24%;
+}
+#dot-img4-wb-unit8-p3-q1 {
+    position: absolute;
+    top: 38%;
+    left: 12%;
+}
+#dot-img5-wb-unit8-p3-q1 {
+    position: absolute;
+    top: 75%;
+}

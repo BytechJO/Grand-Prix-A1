@@ -1,0 +1,29 @@
+.review4-p1-q2-grid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.review4-p1-q2-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.review4-p1-q2-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+
+
+@media (max-width: 991px) {
+.review4-p1-q2-grid {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+}
